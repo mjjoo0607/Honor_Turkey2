@@ -1,7 +1,5 @@
 # Interaction
 
-[HTML TEST](https://ptapurva2008.github.io/Interaction/)
-
 
 [Original Project](http://smpo.github.io/socialmedia/)
 
