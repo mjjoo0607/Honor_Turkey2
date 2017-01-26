@@ -1,9 +1,0 @@
-http://iastate.qualtrics.com/SE/?SID=SV_a9u9MdnpIRuxctT
-
-Display comments in user profile
-
-increase the size of message icon
-
-change the title "Please choose your partner"
-
-give radio button option to choose partner   
