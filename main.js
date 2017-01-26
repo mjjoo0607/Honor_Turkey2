@@ -15,7 +15,7 @@ $(function() {
 	// Number of avatars the user can choose from. Can be changed to any number, depending on how many avatars you would like to display. Default: 82
 	// The avatar images used in the online preview of the paradigm were created using by pickaface.net and due to their terms not available for redistribution. You should therefore create your own images. All images should be 250x250 pixels in size and carry the names "avatar_NUMBER.png" (e.g. avatar_1.png; "png" should be lower case; the numbers in the names should be consequtive, starting from 1). The number of avatars dependeds on the corresponding parameter. The images should be placed in folder "avatars," located in the main study folder extracted on your computer or server.
 
-    settings.numberofavatars = 32;
+    settings.numberofavatars = 10;
 
 	
     // **Redirection**    
@@ -52,10 +52,7 @@ $(function() {
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-	settings.likes_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
-      //Apurva
-	settings.comments_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
-      //Apurva
+    settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky']; 
   }
   
   // -------------------
@@ -93,11 +90,8 @@ $(function() {
   			uname = "undefined";
   		}
   		if(not_alphanumeric(uname)) {
-  		    error = 1;
-            /*Apurva 
-  		    errormsg = 'Please only letters (and no spaces)';  //before
-  		    Apurva*/
-  		    errormsg = 'Please enter letters or numbers only(with no spaces)';   //Apurva
+  			error = 1;
+  			errormsg = 'Please only letters (and no spaces)';
   		}  		
 
   		if(error == 0) {
@@ -119,8 +113,7 @@ $(function() {
   	$('#avatar').show();
 
     var avatars = window.settings.numberofavatars;    
-      //for(var i=0; i<avatars; i++)  //Apurva
-    for (var i = 1; i <= avatars; i++) //Apurva
+  	for(var i=0; i<avatars; i++) 
   	{ 
   		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
   	} 
@@ -149,8 +142,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
-  	    $("#count").text("Characters left: " + (500 - $(this).val().length));
+  	  $("#count").text("Characters left: " + (400 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
@@ -160,65 +152,26 @@ $(function() {
   			error = 1;
   			errormsg = 'Please enter text';
   		}
-  	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
-  		if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
+  		if($('#description').val() !== "" && $('#description').val().length < 140) {
+		
   			error = 1;
   			errormsg = 'Please write a bit more';
 			}
-  	    //if($('#description').val().length > 401) {   //Apurva
-  		if ($('#description').val().length > 701) {  //Apurva
+  		if($('#description').val().length > 401) {
+  		
   			error = 1;
   			errormsg = 'Please enter less text';
   		}  		
   		if(error == 0) {
   			$('#text').hide();
   			window.description = $('#description').val();
-    			init_more_intro();  			
+    			init_fb_intro();  			
     		} else {
     			alertify.log(errormsg,"error");
     		}
   	});  	
   }
-    //Apurva
-    // **Slide:** **More Details**
-  function init_more_intro() {
-      $('#more_intro').show();
-      $('#submit_more_intro').on('click', function () {
-          var error = 0;
-          var stmajor = $('#major').val();
-          var attribute1 = $('#attr1').val();
-          var attribute2 = $('#attr2').val();
-          var attribute3 = $('#attr3').val();
-          var attribute4 = $('#attr4').val();
 
-          if (stmajor == "" || attribute1 == "" || attribute2 == "" || attribute3 == "" || attribute4 == "") {
-              error = 1;
-              errormsg = 'Please enter text in all the fields';
-              stmajor = "undefined";
-              attribute1 = "undefined";
-              attribute2 = "undefined";
-              attribute3 = "undefined";
-              attribute4 = "undefined";
-          }
-          if (not_alpha(stmajor) || not_alpha(attribute1) || not_alpha(attribute2) || not_alpha(attribute3) || not_alpha(attribute4)) {
-              error = 1;
-              errormsg = 'Please enter letters only';   //Apurva
-          }
-
-          if (error == 0) {
-              $('#more_intro').hide();
-              window.stmajor = $('#major').val();
-              window.attribute1 = $('#attribute1').val();
-              window.attribute2 = $('#attribute2').val();
-              window.attribute3 = $('#attribute3').val();
-              window.attribute4 = $('#attribute4').val();
-              init_fb_intro();
-          } else {
-              alertify.log(errormsg, "error");
-          }
-
-      });
-  }                 //Apurva
 
   // **Slide:** **Instructions**   
   function init_fb_intro() {
@@ -253,142 +206,106 @@ $(function() {
   // **Slide:** **Task**   
   function init_task() {
 
-      $('#task').show();
+    $('#task').show();
 
-      shortcut.add("Backspace",function() {});      
+	shortcut.add("Backspace",function() {});      
 
-      jQuery("#countdown").countDown({
-          startNumber: window.settings.tasklength/1000, // in seconds
-          callBack: function(me) {
-              console.log('over');
-              $('#timer').text('00:00');
-          }
-      });
+  	jQuery("#countdown").countDown({
+  		startNumber: window.settings.tasklength/1000, // in seconds
+  		callBack: function(me) {
+  			console.log('over');
+        $('#timer').text('00:00');
+  		}
+  	});
 	   
-      users = {
-          "posts" : [
+		users = {
+		  "posts" : [
 			{
-			    "avatar": 'avatars/' + window.avatar + '.png',
-			    "username": window.username,
-			    "text": window.description,
-			    "likes": window.settings.condition_likes,
-			    "usernames": window.settings.likes_by,
+			  "avatar": 'avatars/' + window.avatar + '.png',
+			  "username": window.username,
+			  "text": window.description,
+			  "likes": window.settings.condition_likes,
+			  "usernames": window.settings.likes_by
 			}
-          ]
-      };
+		  ]
+		};
 		
-      // Add user box to slide     
-      var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
-      $("#task").append(html);
+    // Add user box to slide     
+	  var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
+	  $("#task").append(html);
 	  
-      // Add other boxes to slide    
-      var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
-      $("#task").append(html);
+    // Add other boxes to slide    
+	  var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
+	  $("#task").append(html);
  
-      // Randomize order of other players boxes
-      function reorder() {
-          var grp = $("#others").children();
-          var cnt = grp.length;
+    // Randomize order of other players boxes
+    function reorder() {
+       var grp = $("#others").children();
+       var cnt = grp.length;
 
-          var temp,x;
-          for (var i = 0; i < cnt; i++) {
-              temp = grp[i];
-              x = Math.floor(Math.random() * cnt);
-              grp[i] = grp[x];
-              grp[x] = temp;
-          }
-          $(grp).remove();
-          $("#others").append($(grp));
-      }
-      reorder();
+       var temp,x;
+       for (var i = 0; i < cnt; i++) {
+           temp = grp[i];
+         x = Math.floor(Math.random() * cnt);
+         grp[i] = grp[x];
+         grp[x] = temp;
+     }
+     $(grp).remove();
+     $("#others").append($(grp));
+    }
+    reorder();    
 
-      // When user receives likes
-      $('.userslikes').each(function() {
-          var that = $(this);
-          var usernames = $(this).data('usernames').split(",");
-          var times = $(this).data('likes').split(",");
+    // When user receives likes
+	  $('.userslikes').each(function() {
+  		var that = $(this);
+  		var usernames = $(this).data('usernames').split(",");
+  		var times = $(this).data('likes').split(",");
 
-          for(var i=0; i<times.length; i++) 
-              //for (var i = 1; i <= times.length; i++)
-          { 
-              times[i] = +times[i]; 
+  		for(var i=0; i<times.length; i++) 
+  		{ 
+  			times[i] = +times[i]; 
   			
-              themsg = usernames[i] + " liked your post";
+  			themsg = usernames[i] + " liked your post";
 
-              setTimeout(function(themsg) {
-                  that.text(parseInt(that.text()) + 1);
-                  alertify.success(themsg)
+  			setTimeout(function(themsg) {
+  				that.text(parseInt(that.text()) + 1);
+  				alertify.success(themsg)
 
-              }, times[i], themsg);
-          } 		
-      });
+  			}, times[i], themsg);
+  		} 		
+	  });
 	  
-      // When others receive likes
-      $('.otherslikes').each(function() {
-          var that = $(this);
-          var times = $(this).data('likes').split(",");
+    // When others receive likes
+	  $('.otherslikes').each(function() {
+  		var that = $(this);
+  		var times = $(this).data('likes').split(",");
   		
-          for(var i=0; i<times.length; i++) 
-          { 
-              times[i] = +times[i]; 
+  		for(var i=0; i<times.length; i++) 
+  		{ 
+  			times[i] = +times[i]; 
   			
-              setTimeout(function () {
-                  that.text(parseInt(that.text()) + 1);
-              }, times[i]);
+  			setTimeout(function () {
+  				that.text(parseInt(that.text()) + 1);
+  			}, times[i]);
   			
-          } 
-      });
+  		} 
+	  });
 	 
 
-      // Initialize like buttons
-      $('.btn-like').on('click', function() {
-          $(this).prev().text(parseInt($(this).prev().text()) + 1);
-          // Like buttons can only be clicked once
-          $(this).attr("disabled", true);
-      });
+    // Initialize like buttons
+	  $('.btn-like').on('click', function() {
+		  $(this).prev().text(parseInt($(this).prev().text()) + 1);
+      // Like buttons can only be clicked once
+		  $(this).attr("disabled", true);
+	  });
 
-      // Initalize Masonry plugin
-      // For display of user and other players boxes in columns without gaps
-      $('#task').masonry({
-          itemSelector : '.entry',
-          columnWidth : 10
-      });
+    // Initalize Masonry plugin
+    // For display of user and other players boxes in columns without gaps
+		$('#task').masonry({
+		  itemSelector : '.entry',
+		  columnWidth : 10
+		});
 
-      //Apurva
-      //Initialize comment buttons
-      $(function () {
-          $('.btn-comment').click(function (e) {
-              $(this).prev().slideFadeToggle();
-              return false;
-          });
-
-          $('.close').on('click', function () {
-              $('.pop').hide();
-          });
-      });
-
-      $.fn.slideFadeToggle = function (easing, callback) {
-          return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
-      };
-      //Apurva
-
-      //Apurva
-      //When user receives comments
-      function usercomments() {
-          var arr = ['AncaD commented "What you have written down seems like a complete lie to me."' , "Sarah commented: I didn't like you wrote there. I think you should have put more effort in it", "Nick commented: I enjoyed reading your description!"],
-              rand = Math.floor(Math.random() * arr.length),
-              func = arr[rand];
-          
-          setTimeout(function () {
-              alertify.success('Georgeee commented "Hello! nice to meet you"');
-          }, 25000);
-
-          setTimeout(function () {
-              alertify.success(func);
-          }, 35000);
-      }
-      usercomments();
-	  //Apurva
 
     // Redirect, default after 180000ms = 180s = 3min
     setTimeout(function() {
@@ -498,17 +415,6 @@ $(function() {
         return true; 
       }
   }
-    //Apurva
-    // Function to check letters
-  function not_alpha(inputtxt) {
-      var letter = /^[a-zA-Z]+$/;
-      if (inputtxt.match(letter)) {
-          return false;
-      } else {
-          return true;
-      }
-  }
-    //Apurva
 
 
   // Function to add extra zeros infront of numbers (used for the countdown)
@@ -568,18 +474,8 @@ $(function() {
   set_settings();
   get_params();
   adjust_to_condition();
+
   // Start with the intro slide
   init_intro();
 
 });
-
-//Apurva
-//Activity 
-
-function init_intro2() {
-    $('#intro2').show();
-    $('#submit_intro2').on('click', function () {
-        $('#intro2').hide();
-        //init_name();
-    });
-}
