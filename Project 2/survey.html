@@ -1,0 +1,184 @@
+﻿<html lang="en">
+<!DOCTYPE html>
+
+<!--
+/*
+
+This document contains all instructions which appear in the paradigm, along with some basic functionality. You can change all text by following the instructions below.
+
+If you don't have experience with programming, it is important that you alter only the plain text, as indicated in the instructions, and leave any functional elements intact.
+*/
+-->
+
+<meta charset="utf-8">
+<title>Activity</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Stylesheets -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<!-- For IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+  </script>
+<![endif]-->
+<!-- Javascript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+<script src="shortcut.js"></script>
+<script src="activity.js"></script>
+<!--<script src="activity.js"></script>-->
+<script type="text/javascript" src="partners.json"></script>
+
+</head>
+
+<body oncontextmenu="return false;"> 
+    <div class="container">
+        <div id="intro2" style="display:none;" class="instr">
+            <!--
+            /*
+
+            **Intro**
+            ---------
+            You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
+
+            */ -->
+            
+            <h3>What next?</h3>
+            <br>
+            Now, you will team up with one of the people you have been interacting with,<br>
+            and will be solving a set of challenging logical problems as a team. You will<br>
+            be randomly assigned to one of the following tasks:
+            <br>
+            <ul>
+                <li>spatial reasoning task,</li>
+                <li>visual/perceptual task,</li>
+                <li>logical reasoning task,</li>
+                <li>mathematical problems task.</li>
+            </ul><br>
+            This problem solving activity is expected to foster engagement, improve communication <br>
+            and encourage cooperation between teammates.
+            <br><br>
+            Some of you will be able to choose one person out of the three people as your teammate.<br>
+            Some of you will be randomly assigned a teammate to work with.
+            <br><br>
+            The top two teams that complete the most problems will each win <br>
+            <b>$30 Amazon  gift certificates</b>.
+            <br><br>
+            <button type="submit" id="submit_intro2">Continue</button> 
+        </div>
+        <div id="mcat" style="display:none;">
+            <h3>Choosing your partner </h3>
+            <p>
+                You are randomly assigned to work on the mathematical problems with your partner. Mathematical problems are<br>
+                pulled out from MCAT (Medical college admission test) math test pool.You are assigned to the condition in which<br>
+                you can choose a partner to solve the math problems with. Please click on the name of your preferred partner.<br>                 
+            </p>
+            
+            <script type="template/text" id="partnerstmp">
+                {{#partner}}               
+               <div class="prob">
+                    <div class="tophalf">
+                        <img src="{{avatar}}" class="avatar">  
+                        <h3>{{username}}</h3>
+
+                        <div class="main">
+                            <p><h5>{{major}}</h5><br>
+                              {{interest1}}<br>
+                              {{interest2}}<br>
+                              {{interest3}}<br>
+                              {{interest4}}</p>
+                        </div>
+
+                        <br style="clear:both;">
+
+                    </div>
+                </div>
+                {{/partner}}
+                <br>
+                <br>
+            <form>
+                <input type="radio" name="partner" value="John"> John<br>
+                <input type="radio" name="partner" value="Sarah"> Sarah<br>
+                <input type="radio" name="partner" value="Nick"> Nick<br>
+                <button formaction="http://fppvu.qualtrics.com/SE/?SID=SV_a9u9MdnpIRuxctT"> Continue </button>
+            </form>           
+           </script>
+            </div>
+            
+            
+
+       <!--  <div id="thanks" style="display:none;" class="instr">
+            
+            <h3>Thank you very much for your participation in this study.</h3>
+            The primary purpose of this study is to examine how a threat to one's sense of "honor" may influence may <br>
+            influence goal-directed behaviors. We created the "Online team-building experience" as a cover story to <br>
+            make the tasks we were asking you to do seem legitimate and realistic. In fact, all the other participants <br>
+            you interacted with were not real but computerized hypothetical participants,and all the interactive elements <br>
+            were simulated through predefined computer scripts. We were interested in how participants react to an <br>
+            accusation of lying.
+            <br>
+            <br>
+            Some participants received the feedback from one other participant who accused them of lying. Others <br>
+            received the negative or neutral feedback instead of being accused. In fact, the feedback was pre-scripted <br>
+            manipulation,not the actual response from other participants.
+            <br>
+            <br>
+            We will examine the relation of the value scales you completed at the beginning, the emotion scales, and your <br>
+            decisions of the teammate for the mathematical problems. The characteristics of potential teammates were <br>
+            designed to measure your behavioral responses to accusation or other feedback and we expected that if you <br>
+            were accused, you would be less likely to choose the best candidate compared to other conditions.
+            <br>
+            <br>
+            We are truly sorry that we had to create a study that involved misleading information, but we hope you <br>
+            understand that to avoid raising suspicion, it was necessary to use a misleading cover story. We also want <br>
+            to reassure you that all your responses will remain completely confidential. No identifying data will be <br>
+            maintained with your data.
+            <br>
+            <br>
+            <button type="button" id="next_page">Continue on the next page</button> 
+            <br>
+            <br>
+
+        </div>
+            <div id="final" style="display:none;" class="instr">
+                If we told our participants the true purpose of the study, people would probably <br>
+                not respond as they would in real life. Please do not tell other students the true <br>
+                purpose of the study. If participants know, for example, that the other participants <br>
+                do not exist, we won't get useful results. If someone asks you what the studies are <br>
+                about, you might tell them that it is online teambuilding activities involving completing <br>
+                scales and several forms of interactions with other participants.
+                <br>
+                <br>
+                We hope that this research will contribute to our understanding of how people emotionally <br>
+                and behaviorally respond to threats to their honor.
+                <br>
+                <br>
+                It is possible that some participants may have experienced mild discomfort while interacting <br>
+                with hypothetical participants. If you experienced any discomfort, please feel free to contact <br>
+                Dr. Susan E. Cross, (515) 294-3224, scross@iastate.edu, or the Student Counseling Service, <br>
+                Student Service Building, 3rd Floor, (515) 294-5056. Free counseling is available at the <br>
+                2223 Student Counseling Service for all ISU students. If you have any questions about the rights of <br>
+                research subjects, please contact the IRB Administrator, (515) 294-4566, IRB@iastate.edu, <br>
+                Director, Office of Responsible Research, 2420 Lincoln Way, Suite 202, Iowa State University,<br>
+                Ames, Iowa 50014. (515) 294-3115.
+                <br>
+                <br>
+                We are going to present $30 amazon gift cards to the four of the participants selected through <br>
+                random name drawing. Please enter your full name to the following blank if you want your name<br>
+                to be included
+                <br>
+                <br>
+                <input type="text" id="emailid" autocomplete="off" />
+            </div> -->
+        </div>
+</body>
+</html>
