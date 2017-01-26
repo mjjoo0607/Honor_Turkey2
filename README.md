@@ -10,4 +10,4 @@
 [Project 1](https://ptapurva2008.github.io/Interaction/Project1/index.html)
 
 
-[Project 2](https://ptapurva2008.github.io/Interaction/Project2/survey.html)
+[Project 2](https://ptapurva2008.github.io/Interaction/Project2/index.html)
