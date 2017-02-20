@@ -28,25 +28,27 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 18000; 
-
+   // settings.tasklength = 18000; 
+    settings.tasklength = 180000; 
 	
 	// **Number** **of** **"likes"**    
     // Each received "like" is indicated by the timepoint (in ms) at which the "like" will appear. To change the number of "likes" in each condition, add or remove timepoints. Make sure that every timepoint (except the first) is preceded by a single comma. 
 	// In cases with only 1 "like," a second "like" is added with time point 9999999. This "like" is added for programming purposes and is never executed, as it is outside the task time
 
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
-    settings.condition_1_likes = [12000, 9999999]; 
+   // A     settings.condition_1_likes = [12000, 9999999]; 
+	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
-    settings.condition_2_likes = [10000, 15000,35000,80000,1320000,150000];  
+       settings.condition_2_likes = [10000, 15000,35000,80000,1320000,150000];  
     
     // In condition 3, user will receive 9 likes at the following timepoints (in ms). Default: [10000, 11000,15000,35000,80000,100000,110000,150000,20000]
-    settings.condition_3_likes = [10000, 11000,15000,35000,80000,100000,110000,150000,20000]; 
-
+//     settings.condition_3_likes = [10000, 11000,15000,35000,80000,100000,110000,150000,20000]; 
+      settings.condition_3_likes = [10000, 11000,15000,35000,80000,20000]; 
 	// **Others' likes**     
 	// To keep the total distribution of "likes" constant across conditions, The "likes" received by one group member can be adjusted according to the participant's. By default, the other group member receives 9 "likes" in the participant-ostracism condition, 5 in the participant-inclusion condtion, and 1 in the participant-overinclusion condtion.
-	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
+// 	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
+	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,20000]; // 9
 	settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
 	settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
 	
@@ -123,8 +125,8 @@ $(function() {
   	$('#avatar').show();
 
     var avatars = window.settings.numberofavatars;    
-      //for(var i=0; i<avatars; i++)  //Apurva
-    for (var i = 1; i <= avatars; i++) //Apurva
+      //for(var i=0; i<avatars; i++)  //A
+    for (var i = 1; i <= avatars; i++) //A
   	{ 
   		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
   	} 
@@ -165,8 +167,8 @@ $(function() {
   			errormsg = 'Please enter text';
   		}
   	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
-  		//if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva
-        if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
+  		if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva
+//         if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
   			error = 1;
   			errormsg = 'Please write a bit more';
 			}
@@ -514,7 +516,7 @@ $(function() {
   // Function to check letters and numbers
   // via http://www.w3resource.com/javascript/form/letters-numbers-field.php
   function not_alphanumeric(inputtxt) {
-    var letterNumber = /^[0-9a-zA-Z]+$/;
+    var letterNumber = /^[0-9a-zA-Z-_ ]+$/;
     if(inputtxt.match(letterNumber)) {
         return false;
       } else { 
