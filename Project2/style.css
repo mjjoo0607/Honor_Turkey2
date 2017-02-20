@@ -3,7 +3,8 @@ body {
 }
 
 .container {
-	width: 800px;
+/* 	width: 800px; */
+	width: 100%;
 } 
 
 .tophalf {
