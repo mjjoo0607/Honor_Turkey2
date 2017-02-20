@@ -61,13 +61,17 @@ $(function() {
   // -------------------
   // Above were the basic parameters you can adjust using the instructions. The remaining code is also annotated, but we do not recommend changing it, unless you are comfortable with web programming.
   // -------------------
-  
+  function init_survey1() {
+    $('#survey1').show();
+    //$('#survey1').hide();
+  }
   
   // **Slide:** **Intro**     
   // With instructions regarding the task. The intro container is shown, the continue calls the next slide when clicked.
   function init_intro() {
   	$('#intro').show();
   	$('#submit_intro').on('click',function() {
+			$('#survey1').hide();
 			$('#intro').hide();
   			init_name();  			
   	});	
@@ -577,6 +581,6 @@ $(function() {
   get_params();
   adjust_to_condition();
   // Start with the intro slide
-  init_intro();
+  init_survey1();
 
 });
