@@ -581,6 +581,6 @@ $(function() {
   get_params();
   adjust_to_condition();
   // Start with the intro slide
-  init_survey1();
+  init_intro();
 
 });
