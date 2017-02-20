@@ -210,7 +210,7 @@ $(function() {
           }
           if (not_alphanumeric(stmajor) || not_alphanumeric(attribute1) || not_alphanumeric(attribute2) || not_alphanumeric(attribute3) || not_alphanumeric(attribute4)) {
               error = 1;
-              errormsg = 'Please enter letters only';   //Apurva
+              errormsg = 'Please enter letters/numbers/hyphen/under score/space only';   //Apurva
           }
 
           if (error == 0) {
