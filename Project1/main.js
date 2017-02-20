@@ -418,12 +418,12 @@ $(function() {
 
     $('#timer').text('00:00');
     
-    $('#final-continue').on('click', function() {
+    /*$('#final-continue').on('click', function() {
 
       // Redirect link
       location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
 
-    });
+    });*/
     
     },window.settings.tasklength); // timing for task
 
