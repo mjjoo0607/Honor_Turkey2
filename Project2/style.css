@@ -362,8 +362,26 @@ label {
   padding-bottom: 8px;
 }
 
-input[type="radio"] {
-    margin-left:10px;
-    margin-right:50px;
+fieldset {
+  overflow: hidden
+}
+
+.choose {
+  float: left;
+  clear: none;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 2px 1em 0 0;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
 }
 /* Apurva */
