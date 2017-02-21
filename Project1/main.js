@@ -37,7 +37,8 @@ $(function() {
 
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
    // A     settings.condition_1_likes = [12000, 9999999]; 
-	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
+// 	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
+	   settings.condition_1_likes = [12000, 120000, 80000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
        settings.condition_2_likes = [10000, 15000,35000,80000,1320000,150000];  
@@ -402,12 +403,12 @@ $(function() {
           setTimeout(function () {
               alertify.success('Georgeee commented "Hello! nice to meet you"');
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-          }, 25000);
+          }, 30000);
 
           setTimeout(function () {
               alertify.success(func);
               // $(".commentby").show(func);
-          }, 35000);
+          }, 100000);
           // $(document).ready(function() {
           //   $(func).hide().delay(35000).addClass("displaycomments");
           // });
