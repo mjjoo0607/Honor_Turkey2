@@ -417,12 +417,14 @@ $(function() {
               // $(".commentby").show(func);
           }, 100000);
 	  if(rand==0) {
+		  alert(0);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment1").style.visibility = "visible";
            },110000);
 	  }
 	  else if(rand==1) {
+		  alert(1);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment2").style.visibility = "visible";
@@ -430,6 +432,7 @@ $(function() {
            },110000);
 	  }
 	  else if(rand==2) {
+		  alert(2);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment3").style.visibility = "visible";
