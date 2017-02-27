@@ -396,7 +396,7 @@ $(function() {
 //           },35000);
 
               $(document).ready(function() {
-              $('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
+              //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
              $('#bottomcomment').show();
            },25000);
 
