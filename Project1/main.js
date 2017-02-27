@@ -410,34 +410,31 @@ $(function() {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-          }, 35000);   
+          }, 30000);   
 	  
           setTimeout(function () {
               alertify.success(func);
               // $(".commentby").show(func);
           }, 100000);
 	  if(rand==0) {
-		  alert(0);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment1").style.visibility = "visible";
-           },110000);
+           },100000);
 	  }
 	  else if(rand==1) {
-		  alert(1);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment2").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-           },110000);
+           },100000);
 	  }
 	  else if(rand==2) {
-		  alert(2);
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment3").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-           },110000);
+           },100000);
 	  }
           // $(document).ready(function() {
           //   $(func).hide().delay(35000).addClass("displaycomments");
