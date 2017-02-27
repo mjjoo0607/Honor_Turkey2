@@ -397,9 +397,9 @@ $(function() {
 	      
               $(document).ready(function() {
               //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
-		//$('#bottomcomment').delay(25000);
+		$('#bottomcomment').delay(25000);
              $('#bottomcomment').show();
-           },30000);
+           },35000);
 	  
           setTimeout(function () {
               alertify.success('Georgeee commented "Hello! nice to meet you"');
@@ -408,21 +408,21 @@ $(function() {
           }, 30000);
 	  if(rand==0) {
 		$(document).ready(function() {        
-		//$('#bottomcomment1').delay(100000);
+		$('#bottomcomment1').delay(100000);
              $('#bottomcomment1').show();
-           },100000);
+           },110000);
 	  }
 	  else if(rand==1) {
 		$(document).ready(function() {        
-		//$('#bottomcomment1').delay(100000);
+		$('#bottomcomment2').delay(100000);
              $('#bottomcomment2').show();
-           },100000);
+           },110000);
 	  }
 	  if(rand==2) {
 		$(document).ready(function() {        
-		//$('#bottomcomment1').delay(100000);
+		$('#bottomcomment3').delay(100000);
              $('#bottomcomment3').show();
-           },100000);
+           },110000);
 	  }
           setTimeout(function () {
               alertify.success(func);
