@@ -371,4 +371,13 @@ label {
   margin: 8px 0;
   padding-bottom: 8px;
 }
+
+#mjr {
+display: inline-block;
+}
+
+#attr {
+display: inline-block;
+}
+
 /* Apurva */
