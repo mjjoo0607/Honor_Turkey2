@@ -362,7 +362,26 @@ label {
   padding-bottom: 8px;
 }
 
-.prtnr {
-display: inline-block;
+ fieldset {
+  overflow: hidden
 }
+
+.choose {
+   float: left;
+   clear: none;
+ } 
+ 
+  label {
+   float: left;
+   clear: none;
+   display: block;
+   padding: 5px 1em 0 0;
+ } 
+ 
+  input[type=radio],
+ input.radio {
+   float: left;
+   clear: none;
+   margin: 2px 0 0 12px;
+ }
 
