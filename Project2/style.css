@@ -366,10 +366,10 @@ fieldset {
   overflow: hidden
 }
 
-.choose {
+/* .choose {
   float: left;
   clear: none;
-}
+} */
 
 label {
   float: left;
