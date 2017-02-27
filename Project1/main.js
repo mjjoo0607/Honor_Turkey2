@@ -395,18 +395,18 @@ $(function() {
 //             $('#bottomcomment2').show();
 //           },35000);
 	      
-              $(document).ready(function() {
+             /* $(document).ready(function() {
               //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
 		$('#bottomcomment').delay(25000);
              $('#bottomcomment').show();
-           },35000);
+           },35000);*/
 	  
           setTimeout(function () {
               alertify.success('Georgeee commented "Hello! nice to meet you"');
 		  document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
-	  if(rand==0) {
+	  /*if(rand==0) {
 		$(document).ready(function() {        
 		$('#bottomcomment1').delay(100000);
              $('#bottomcomment1').show();
@@ -423,7 +423,7 @@ $(function() {
 		$('#bottomcomment3').delay(100000);
              $('#bottomcomment3').show();
            },110000);
-	  }
+	  }*/
           setTimeout(function () {
               alertify.success(func);
               // $(".commentby").show(func);
