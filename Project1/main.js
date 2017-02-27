@@ -406,6 +406,11 @@ $(function() {
 		  document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
+	   setTimeout(function () {
+              //alertify.success('Georgeee commented "Hello! nice to meet you"');
+		  document.getElementById("bottomcomment").style.visibility = "visible";
+              // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+          }, 35000);   
 	  /*if(rand==0) {
 		$(document).ready(function() {        
 		$('#bottomcomment1').delay(100000);
