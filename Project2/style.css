@@ -32,10 +32,11 @@ body {
 }*/
 /*Apurva*/
 div.main {
-  width: 210px !important;
+/*   width: 210px !important; */
+  width: 190px !important;
   margin-left: -16px;
   margin-top: 3px;
-	margin-bottom: -10px !important;
+  margin-bottom: -10px !important;
 }
 
 img.avatar {
