@@ -395,15 +395,15 @@ $(function() {
 //             $('#bottomcomment2').show();
 //           },35000);
 
-              /*$(document).ready(function() {
+              $(document).ready(function() {
               //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
 		$('#bottomcomment').delay(25000);
              $('#bottomcomment').show();
-           },25000);*/
+           },25000);
 	  
           setTimeout(function () {
               alertify.success('Georgeee commented "Hello! nice to meet you"');
-		  document.getElementById("bottomcomment").style.visibility = "visible";
+		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
 
