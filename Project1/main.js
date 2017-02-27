@@ -432,7 +432,7 @@ $(function() {
 	  else if(rand==2) {
 		setTimeout(function () {
               //alertify.success('Georgeee commented "Hello! nice to meet you"');
-		  document.getElementById("bottomcomment").style.visibility = "visible";
+		  document.getElementById("bottomcomment3").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
            },110000);
 	  }
