@@ -411,28 +411,31 @@ $(function() {
 		  document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 35000);   
-	  /*if(rand==0) {
-		$(document).ready(function() {        
-		$('#bottomcomment1').delay(100000);
-             $('#bottomcomment1').show();
-           },110000);
-	  }
-	  else if(rand==1) {
-		$(document).ready(function() {        
-		$('#bottomcomment2').delay(100000);
-             $('#bottomcomment2').show();
-           },110000);
-	  }
-	  if(rand==2) {
-		$(document).ready(function() {        
-		$('#bottomcomment3').delay(100000);
-             $('#bottomcomment3').show();
-           },110000);
-	  }*/
+	  
           setTimeout(function () {
               alertify.success(func);
               // $(".commentby").show(func);
           }, 100000);
+	  if(rand==0) {
+		setTimeout(function () {
+              //alertify.success('Georgeee commented "Hello! nice to meet you"');
+		  document.getElementById("bottomcomment1").style.visibility = "visible";
+           },110000);
+	  }
+	  else if(rand==1) {
+		setTimeout(function () {
+              //alertify.success('Georgeee commented "Hello! nice to meet you"');
+		  document.getElementById("bottomcomment2").style.visibility = "visible";
+              // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+           },110000);
+	  }
+	  else if(rand==2) {
+		setTimeout(function () {
+              //alertify.success('Georgeee commented "Hello! nice to meet you"');
+		  document.getElementById("bottomcomment").style.visibility = "visible";
+              // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+           },110000);
+	  }
           // $(document).ready(function() {
           //   $(func).hide().delay(35000).addClass("displaycomments");
           // });
