@@ -362,7 +362,7 @@ label {
   padding-bottom: 8px;
 }
 
-fieldset {
+/* fieldset {
   overflow: hidden
 }
 
@@ -371,17 +371,17 @@ fieldset {
   clear: none;
 } */
 
-label {
+/* label {
   float: left;
   clear: none;
   display: block;
   padding: 5px 1em 0 0;
-}
+} */
 
-input[type=radio],
+/* input[type=radio],
 input.radio {
   float: left;
   clear: none;
   margin: 2px 0 0 12px;
-}
+} */ */
 /* Apurva */
