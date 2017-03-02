@@ -4,7 +4,7 @@
 // With instructions regarding the task. The intro container is shown, the continue calls the next slide when clicked.
 $(function () {
     function set_settings() {
-	settings.defaultredirect = 'http://fppvu.qualtrics.com/SE/?SID=SV_a9u9MdnpIRuxctT';
+	settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_78y5vvwkxJZrLtH';
     }
 	
     function init_activity() {
@@ -12,7 +12,7 @@ $(function () {
         $('#submit_intro2').on('click', function () {
             $('#intro2').hide();
             init_choose();
-//         });
+        });
     }
 
     function init_choose() {
