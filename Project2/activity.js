@@ -3,6 +3,10 @@
 // **Slide:** **Intro**     
 // With instructions regarding the task. The intro container is shown, the continue calls the next slide when clicked.
 $(function () {
+    function set_settings() {
+	settings.defaultredirect = 'http://fppvu.qualtrics.com/SE/?SID=SV_a9u9MdnpIRuxctT';
+    }
+	
     function init_activity() {
         $('#intro2').show();
         $('#submit_intro2').on('click', function () {
