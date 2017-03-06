@@ -1,7 +1,7 @@
 window.partners = {
   "partner": [
     {
-      "avatar": "avatars/partners/pat.png",
+      "avatar": "avatars/partners/john.png",
       "username": "John",
       "major": "Major in Mathematics",
       "interest1": "Logical",
@@ -10,7 +10,7 @@ window.partners = {
       "interest4": "Energetic"
     },
     {
-      "avatar": "avatars/partners/chris.png",
+      "avatar": "avatars/partners/sarah.png",
       "username": "Sarah",
       "major": "Major in Sociology",
       "interest1": "Helpful",
@@ -19,7 +19,7 @@ window.partners = {
       "interest4": "Confident"
     },
     {
-      "avatar": "avatars/partners/alex.png",
+      "avatar": "avatars/partners/niki.png",
       "username": "Nick",
       "major": "Major in English Literature",
       "interest1": "Interested in a lot of field",
