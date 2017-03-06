@@ -14,12 +14,12 @@ body {
 }
 /* Apurva */
 .tophalf1 {
-/* 	margin-bottom: 0px !important; */
+	margin-bottom: 0px !important;
 	background-image: url("chatbox.jpg");
 /* 	background-size: 240px 340px; */
 /*     	background-color: #ffffff; */
-/* 	border: 1px solid #d5d7e0/; */
-/* 	padding: 15px;	 */
+	border: 1px solid #d5d7e0/;
+	padding: 15px;	
 }
 
 .bottomcomment {
