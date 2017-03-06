@@ -16,14 +16,14 @@ body {
 .tophalf1 {
 	margin-bottom: 0px !important;
 	background-image: url("chatbox.jpg");
-	background-size: 220px 300px;
+	background-size: 240px 400px;
     	background-color: #ffffff;
 	border: 1px solid #d5d7e0;
 	padding: 15px;	
 }
 
 .bottomcomment {
-	font-size: 80%;
+	font-size: 90%;
 }
 /* Apurva */
 .entry {
