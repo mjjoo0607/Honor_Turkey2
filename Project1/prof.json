@@ -13,7 +13,7 @@ window.others = {
         "avatar": "avatars/others/sarah.png",
         "username": "Sarah",
         "text": "Let me introduce myself. I’m Sarah, married, and mother of two wonderful (grown up) children. My career has been a bit peculiar. Starting off as a graduate historian, I switched to an entirely different discipline: occupational assessor trying to help young people with disabilities to get a job. I’ve just retired and started spending more time on my hobbies, such as singing, reading, and playing volleyball.",
-        "likes": [12000, 14000,15000,35000,80000,20000] //6
+        "likes": [12000,35000,80000,20000] //4
       },
       {
         "avatar": "avatars/others/john.png",
@@ -25,13 +25,13 @@ window.others = {
         "avatar": "avatars/others/anca.png",
         "username": "AncaD",
         "text": "I am a Computer Science student, interested in Natural Language processing. Also a lover of loose leaf tea and a Semantic Web enthusiast. I’m curious about what this task is about.",
-        "likes": [10000, 12000, 40000, 80000, 120000] //5
+        "likes": [10000, 80000, 120000] //3
       },
       {
         "avatar": "avatars/others/niki.png",
         "username": "Nick",
         "text": "My life revolves around rock climbing. I started climbing when I was 12 (turning 18 soon) and usually climb 4-5 hours a day. Climbing never bores me, because each time is different – the routes, the weather, my strength and endurance. It’s great!",
-        "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
+        "likes": [40000, 25000, 90000, 100000, 155000] //6
       },
     
     ]
