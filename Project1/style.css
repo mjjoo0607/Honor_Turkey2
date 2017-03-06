@@ -12,7 +12,15 @@ body {
 	border: 1px solid #d5d7e0;
 	padding: 15px;	
 }
-
+/* Apurva */
+.tophalf1 {
+	margin-bottom: 0px !important;
+	background-image: url("chatbox.jpg");
+    	background-color: #ffffff;
+	border: 1px solid #d5d7e0;
+	padding: 15px;	
+}
+/* Apurva */
 .entry {
 	width: 240px;
 	float: left;
