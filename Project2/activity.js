@@ -2,13 +2,10 @@
 //Activity 
 // **Slide:** **Intro**     
 // With instructions regarding the task. The intro container is shown, the continue calls the next slide when clicked.
-$(function() {    //new
-
 $(function () {
      function set_settings() {
  	settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb';
      }
-	});  //new
 	
     function init_activity() {
         $('#intro2').show();
