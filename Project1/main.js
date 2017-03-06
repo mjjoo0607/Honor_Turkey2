@@ -216,12 +216,12 @@ $(function() {
           }
 
           if (error == 0) {
-              $('#more_intro').hide();
               window.stmajor = $('#major').val();
               window.attribute1 = $('#attribute1').val();
               window.attribute2 = $('#attribute2').val();
               window.attribute3 = $('#attribute3').val();
               window.attribute4 = $('#attribute4').val();
+	      $('#more_intro').hide();
               init_fb_intro();
           } else {
               alertify.log(errormsg, "error");
@@ -457,7 +457,8 @@ $(function() {
 
        // Redirect link
         //location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
- 	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
+ 	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
+	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);     
      });
     
     },window.settings.tasklength); // timing for task
