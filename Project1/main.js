@@ -387,7 +387,7 @@ $(function() {
       //Apurva
       //When user receives comments
       function usercomments() {
-          var arr = ['AncaD commented "What you have written down seems like a complete lie to me."' , "Sarah commented: I didn't like you wrote there. I think you should have put more effort in it", "Nick commented: I enjoyed reading your description!"],
+          var arr = ['AncaD says:What you have written down seems like a complete lie to me.' , "Sarah says: I didn't like you wrote there. I think you should have put more effort in it", "Nick says: I enjoyed reading your description!"],
               rand = Math.floor(Math.random() * arr.length),
               func = arr[rand]
           
