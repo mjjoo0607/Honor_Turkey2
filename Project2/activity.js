@@ -88,7 +88,7 @@ $(function () {
 // 	window.avatar = $('.selected').attr('id');
 // }
      function choosePartner() {
-	window.partner = $('.form input[name="partner"]:checked').val();
+	//window.partner = $('.form input[name="partner"]:checked').val();
 	    
      $('#final-continue').on('click', function() {
 
