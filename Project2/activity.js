@@ -21,8 +21,6 @@ $(function () {
         $('#mcat').show();
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    //window.partner= $("#form input[name='partner']:checked").val();
-	    window.partner=$("input[name='partner']:checked", '#form').val();
-	    alert($(".partner:checked").val());
        /* prtnrs = {
             "partners": [
               {
@@ -68,12 +66,16 @@ $(function () {
         //     $('#mcat').hide();
         //     init_thankyou();
         // });
-	     $(window).unbind('beforeunload');
-	    $('#final-continue').on('click', function() {
+	     window.partner=$("input[name='partner']:checked", '#form').val();
+	    alert($(".partner:checked").val());
+	    choosePartner();
+    }
+function choosePartner() {
+	$(window).unbind('beforeunload');
+	$('#final-continue').on('click', function() {
 		location.href = window.redirect+'&par='+window.partner;
 	});
-    }
-
+}
     function init_thankyou() {
         $('#thanks').show();
         $('#next_page').on('click', function () {
