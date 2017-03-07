@@ -11,13 +11,13 @@ $(function () {
     function init_activity() {
         $('#intro2').show();
         $('#submit_intro2').on('click', function () {
-            $('#intro2').hide();
+   
             init_choose();
         });
     }
 
     function init_choose() {
-
+	$('#intro2').hide();
         $('#mcat').show();
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    //window.partner= $("#form input[name='partner']:checked").val();
