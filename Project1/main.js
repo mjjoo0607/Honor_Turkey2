@@ -234,9 +234,20 @@ $(function() {
   function init_fb_intro() {
   	$('#fb_intro').show();
 	
-  	$('#submit_fb_intro').on('click',function() {
+  	$('#continue_fb_intro').on('click',function() {
 
 			$('#fb_intro').hide();
+ 			cont_fb_login();  			
+
+  	});	
+  }
+	
+function cont_fb_intro() {
+  	$('#fb_intro').show();
+	
+  	$('#submit_fb_intro').on('click',function() {
+
+			$('#intro_continued').hide();
  			init_fb_login();  			
 
   	});	
