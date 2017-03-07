@@ -11,13 +11,13 @@ $(function () {
     function init_activity() {
         $('#intro2').show();
         $('#submit_intro2').on('click', function () {
-   
+   		$('#intro2').hide();
             init_choose();
         });
     }
 
     function init_choose() {
-	$('#intro2').hide();
+	
         $('#mcat').show();
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    //window.partner= $("#form input[name='partner']:checked").val();
@@ -75,8 +75,8 @@ function choosePartner() {
 	//$(window).unbind('beforeunload');
 	$('#final-continue').on('click', function() {
 	    window.partner=$("input[name='partner']:checked", '#form').val();
-	    alert($(".partner:checked").val());
-		location.href = window.redirect+'&par='+window.partner;
+	    //alert($(".partner:checked").val());
+		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
 	});
 }
     function init_thankyou() {
