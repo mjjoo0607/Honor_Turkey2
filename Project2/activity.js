@@ -94,7 +94,7 @@ $(function () {
 
        // Redirect link
         //location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
-	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&par='+window.partner;     
+	location.href = window.redirect;//+'&p='+window.participant+'&c='+window.condition+'&par='+window.partner;     
      });
     }
      
