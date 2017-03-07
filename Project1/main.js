@@ -237,7 +237,7 @@ $(function() {
   	$('#continue_fb_intro').on('click',function() {
 
 			$('#fb_intro').hide();
- 			cont_fb_login();  			
+ 			cont_fb_intro();  			
 
   	});	
   }
