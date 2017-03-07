@@ -20,7 +20,7 @@ $(function () {
 
         $('#mcat').show();
 	//window.partner = $('.form input[name="partner"]:checked').val();
-	    window.partner= $("#form input[name='partner']:checked").val()
+	    window.partner= $("#form input[name='partner']:checked").val();
        /* prtnrs = {
             "partners": [
               {
