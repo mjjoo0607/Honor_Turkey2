@@ -66,6 +66,7 @@ $(function () {
         //     $('#mcat').hide();
         //     init_thankyou();
         // });
+	    ('#mcat').hide();
 	    choosePartner();
     }
 function choosePartner() {
