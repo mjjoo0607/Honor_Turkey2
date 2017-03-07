@@ -66,8 +66,9 @@ $(function () {
         //     $('#mcat').hide();
         //     init_thankyou();
         // });
-	    ('#mcat').hide();
+	    
 	    choosePartner();
+	    ('#mcat').hide();
     }
 function choosePartner() {
 	window.partner=$("input[name='partner']:checked", '#form').val();
