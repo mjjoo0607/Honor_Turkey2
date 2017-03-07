@@ -22,6 +22,7 @@ $(function () {
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    //window.partner= $("#form input[name='partner']:checked").val();
 	    window.partner=$("input[name='partner']:checked", '#form').val();
+	    alert($(".partner:checked").val());
        /* prtnrs = {
             "partners": [
               {
@@ -67,6 +68,7 @@ $(function () {
         //     $('#mcat').hide();
         //     init_thankyou();
         // });
+	     $(window).unbind('beforeunload');
 	    $('#final-continue').on('click', function() {
 		location.href = window.redirect+'&par='+window.partner;
 	});
