@@ -77,6 +77,8 @@ $(function () {
 
     function init_final() {
         $('#final').show();
+	    //Apurva
+	choosePartner(); 
     }
     
    //Apurva
@@ -95,7 +97,7 @@ $(function () {
 	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&pt='+encodeURI(window.partner);     
      });
     }
-     choosePartner();
+     
    // Get URL parameters to set condition number and participant number
    function get_params() {
      // condition number must be 1, 2, or 3
