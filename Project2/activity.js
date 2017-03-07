@@ -77,8 +77,11 @@ $(function () {
 
     function init_final() {
         $('#final').show();
+	$('#final-continue').on('click', function() {
+		location.href = window.redirect;
+	});
 	    //Apurva
-	choosePartner(); 
+	//choosePartner(); 
     }
     
    //Apurva
@@ -87,7 +90,7 @@ $(function () {
 // 	$(this).addClass('selected');
 // 	window.avatar = $('.selected').attr('id');
 // }
-     function choosePartner() {
+     /*function choosePartner() {
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    
      $('#final-continue').on('click', function() {
@@ -96,7 +99,7 @@ $(function () {
         //location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
 	location.href = window.redirect;//+'&p='+window.participant+'&c='+window.condition+'&par='+window.partner;     
      });
-    }
+    }*/
      
    // Get URL parameters to set condition number and participant number
    function get_params() {
@@ -114,6 +117,7 @@ $(function () {
      }    
      // redirect
      if(window.QueryString.redirect !== undefined && window.QueryString.redirect !== "") {
+	     alert(window.QueryString.redirect);
        window.redirect = decode(window.QueryString.redirect);
      } else {
  	  window.redirect = window.settings.defaultredirect;
