@@ -78,7 +78,7 @@ $(function () {
     function init_final() {
         $('#final').show();
 	$('#final-continue').on('click', function() {
-		location.href = window.redirect;
+		location.href = window.settings.defaultredirect;
 	});
 	    //Apurva
 	//choosePartner(); 
