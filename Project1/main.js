@@ -243,7 +243,7 @@ $(function() {
   }
 	
 function cont_fb_intro() {
-  	$('#fb_intro').show();
+  	$('#intro_continued').show();
 	
   	$('#submit_fb_intro').on('click',function() {
 
