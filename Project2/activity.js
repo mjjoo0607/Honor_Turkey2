@@ -19,7 +19,7 @@ $(function () {
     function init_choose() {
 
         $('#mcat').show();
-
+	window.partner = $('.form input[name="partner"]:checked').val();
        /* prtnrs = {
             "partners": [
               {
@@ -66,7 +66,7 @@ $(function () {
         //     init_thankyou();
         // });
 	    $('#final-continue').on('click', function() {
-		location.href = window.settings.defaultredirect;
+		location.href = window.redirect+'&par='+window.partner;
 	});
     }
 
