@@ -73,7 +73,7 @@ $(function () {
 function choosePartner() {
 	window.partner=$("input[name='partner']:checked", '#form').val();
 	    alert($(".partner:checked").val());
-	$(window).unbind('beforeunload');
+	//$(window).unbind('beforeunload');
 	$('#final-continue').on('click', function() {
 		location.href = window.redirect+'&par='+window.partner;
 	});
