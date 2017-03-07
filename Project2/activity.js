@@ -65,6 +65,9 @@ $(function () {
         //     $('#mcat').hide();
         //     init_thankyou();
         // });
+	    $('#final-continue').on('click', function() {
+		location.href = window.settings.defaultredirect;
+	});
     }
 
     function init_thankyou() {
@@ -77,9 +80,6 @@ $(function () {
 
     function init_final() {
         $('#final').show();
-	$('#final-continue').on('click', function() {
-		location.href = window.settings.defaultredirect;
-	});
 	    //Apurva
 	//choosePartner(); 
     }
