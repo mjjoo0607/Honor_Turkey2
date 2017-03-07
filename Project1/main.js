@@ -217,10 +217,10 @@ $(function() {
 
           if (error == 0) {
               window.stmajor = $('#major').val();
-              window.attribute1 = $('#attribute1').val();
-              window.attribute2 = $('#attribute2').val();
-              window.attribute3 = $('#attribute3').val();
-              window.attribute4 = $('#attribute4').val();
+              window.attribute1 = $('#attr1').val();
+              window.attribute2 = $('#attr2').val();
+              window.attribute3 = $('#attr3').val();
+              window.attribute4 = $('#attr4').val();
 	      $('#more_intro').hide();
               init_fb_intro();
           } else {
