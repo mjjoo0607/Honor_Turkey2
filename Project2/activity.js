@@ -19,7 +19,8 @@ $(function () {
     function init_choose() {
 
         $('#mcat').show();
-	window.partner = $('.form input[name="partner"]:checked').val();
+	//window.partner = $('.form input[name="partner"]:checked').val();
+	    window.partner= $("#form input[type='radio']:checked").val()
        /* prtnrs = {
             "partners": [
               {
