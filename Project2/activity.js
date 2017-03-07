@@ -4,6 +4,7 @@
 // With instructions regarding the task. The intro container is shown, the continue calls the next slide when clicked.
 $(function () {
      function set_settings() {
+	window.settings = [];
  	settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb';
      }
 	
@@ -79,6 +80,22 @@ $(function () {
     }
     
    //Apurva
+//     if($('#postageyes').is(':checked')) {
+// // do stuff
+// 	$(this).addClass('selected');
+// 	window.avatar = $('.selected').attr('id');
+// }
+	window.partner = $('.form input[name="partner"]:checked').val();
+	    
+     $('#final-continue').on('click', function() {
+
+       // Redirect link
+        //location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&pt='+encodeURI(window.partner);     
+     });
+    
+    }
+	
    // Get URL parameters to set condition number and participant number
    function get_params() {
      // condition number must be 1, 2, or 3
