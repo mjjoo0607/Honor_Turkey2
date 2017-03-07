@@ -3,7 +3,7 @@ window.partners = {
     {
       "avatar": "avatars/partners/john.png",
       "username": "John",
-      "major": "Major in Mathematics",
+      "major": "Computer Engineering",
       "interest1": "Logical",
       "interest2": "Like puzzles",
       "interest3": "Quick to think",
