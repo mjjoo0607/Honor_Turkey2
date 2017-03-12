@@ -386,6 +386,9 @@ function cont_fb_intro() {
       $(function () {
           $('.btn-comment').click(function (e) {
               $(this).prev().slideFadeToggle();
+		  //Apurva
+		$( "#body" ).keyup();
+		  //Apurva
               return false;
           });
 
