@@ -24,7 +24,8 @@ body {
 }
 
 .bottomcomment {
-	font-size: 90%;
+	font-size: 80%;
+	background-image: url("call.png");
 }
 /* Apurva */
 .entry {
@@ -98,20 +99,20 @@ div.masonry {
 	border-top: none;
 }
 
-.bottomhalf {
+/* .bottomhalf {
   clear: both;
   color: #3B5999;
   /*height: 15px;*/
 /*Apurva*/
     /*height: 20px;*/
-    height: auto;
+/*     height: auto; */
 /*Apurva*/
-  background-color: #f5f6fa;
+/*   background-color: #f5f6fa;
   border: 1px solid #d5d7e0;  
   padding: 5px;
   padding-bottom: 8px !important;
-  border-top: none;
-}
+  border-top: none; */
+/* } */ 
 /*Apurva*/
 .displaycomments {
   position: relative;
