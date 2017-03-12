@@ -386,12 +386,13 @@ function cont_fb_intro() {
       $(function () {
           $('.btn-comment').click(function (e) {
               $(this).prev().slideFadeToggle();
-		  //Apurva
-		$( "#body" ).keyup();
-		  //Apurva
-              return false;
+		 return false;
           });
-
+	    //Apurva
+	  $( "#new_message").each(function() {
+  	       $( "#body" ).keyup();
+	  });
+	     //Apurva
           $('.close').on('click', function () {
               $('.pop').hide();
           });
