@@ -25,24 +25,24 @@ body {
 	clear:both;
 }
 
-#bottomcomment {
+.bottomcomment {
 /* 	background-image: url("call0.png"); */
 	background-size: 81%;
 /* 	background-size: 100% 81%; */
 }
-#bottomcomment1 {
+.bottomcomment1 {
 /* 	font-size: 80%; */
 /* 	background-image: url("call1.png"); */
 	background-size: 81%;
 /* 	background-size: 100% 81%; */
 }
-#bottomcomment2 {
+.bottomcomment2 {
 /* 	font-size: 80%; */
 /* 	background-image: url("call2.png"); */
 	background-size: 81%;
 /* 	background-size: 100% 81%; */
 }
-#bottomcomment3 {
+.bottomcomment3 {
 /* 	font-size: 80%; */
 /* 	background-image: url("call3.png"); */
 	background-size: 81%;
