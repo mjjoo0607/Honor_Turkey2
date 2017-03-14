@@ -23,7 +23,7 @@ body {
 	padding: 15px;
 }
 
-#bottomcomment {
+/* #bottomcomment {
 	visibility:hidden;
 	background-image: url("call0.png");
 	background-size: 81%;
@@ -42,7 +42,7 @@ body {
 	visibility:hidden;
 	background-image: url("call3.png");
 	background-size: 81%;
-}
+} */
 /* Apurva */
 .entry {
 	width: 240px;
