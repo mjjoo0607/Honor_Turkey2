@@ -26,7 +26,23 @@ body {
 .bottomcomment {
 	font-size: 80%;
 	background-image: url("call.png");
+	background-size: 100% 81%;
 }
+/* .bottomcomment1 {
+	font-size: 80%;
+	background-image: url("call.png");
+	background-size: 100% 81%;
+}
+.bottomcomment2 {
+	font-size: 80%;
+	background-image: url("call.png");
+	background-size: 100% 81%;
+}
+.bottomcomment3 {
+	font-size: 80%;
+	background-image: url("call.png");
+	background-size: 100% 81%;
+} */
 /* Apurva */
 .entry {
 	width: 240px;
