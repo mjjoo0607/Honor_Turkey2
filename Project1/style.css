@@ -7,7 +7,6 @@ body {
 } 
 
 .tophalf {
-	clear:both;
 	margin-bottom: 0px !important;
    	background-color: #ffffff;
 	border: 1px solid #d5d7e0;
@@ -22,32 +21,20 @@ body {
 /*     	background-color: #ffffff; */
 	border: 1px solid #d5d7e0/;
 	padding: 15px;
-	clear:both;
 }
 
-.bottomcomment {
-/* 	background-image: url("call0.png"); */
+/* .bottomcomment {
 	background-size: 81%;
-/* 	background-size: 100% 81%; */
 }
 .bottomcomment1 {
-/* 	font-size: 80%; */
-/* 	background-image: url("call1.png"); */
 	background-size: 81%;
-/* 	background-size: 100% 81%; */
 }
 .bottomcomment2 {
-/* 	font-size: 80%; */
-/* 	background-image: url("call2.png"); */
 	background-size: 81%;
-/* 	background-size: 100% 81%; */
 }
 .bottomcomment3 {
-/* 	font-size: 80%; */
-/* 	background-image: url("call3.png"); */
 	background-size: 81%;
-/* 	background-size: 100% 81%; */
-}
+} */
 /* Apurva */
 .entry {
 	width: 240px;
