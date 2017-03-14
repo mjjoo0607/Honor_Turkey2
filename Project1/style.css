@@ -7,6 +7,7 @@ body {
 } 
 
 .tophalf {
+	clear:both;
 	margin-bottom: 0px !important;
    	background-color: #ffffff;
 	border: 1px solid #d5d7e0;
