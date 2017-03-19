@@ -16,10 +16,10 @@ body {
 .tophalf1 {
 	margin-bottom: 0px !important;
 	background-image: url("chatbox.jpg");
-/* 	background-size: 100% 101%;
-	 */
-	width: 100%;
-	height: auto;
+	background-size: 100% 101%;
+	
+/* 	width: 100%;
+	height: auto; */
 /*     	background-color: #ffffff; */
 	border: 1px solid #d5d7e0/;
 	padding: 15px;
