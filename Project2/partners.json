@@ -2,17 +2,17 @@ window.partners = {
   "partner": [
     {
       "avatar": "avatars/partners/john.png",
-      "username": "John",
+      "username": "Pat",
       "major": "Computer Engineering",
       "interest1": "Logical",
-      "interest2": "Like puzzles",
-      "interest3": "Quick to think",
+      "interest2": "I like puzzles",
+      "interest3": "Quick thinker",
       "interest4": "Energetic"
     },
     {
       "avatar": "avatars/partners/sarah.png",
-      "username": "Sarah",
-      "major": "Major in Sociology",
+      "username": "Chris",
+      "major": "I major in Sociology",
       "interest1": "Helpful",
       "interest2": "Polite",
       "interest3": "Organized",
@@ -20,12 +20,12 @@ window.partners = {
     },
     {
       "avatar": "avatars/partners/niki.png",
-      "username": "Nick",
-      "major": "Major in English Literature",
-      "interest1": "Interested in a lot of field",
-      "interest2": "Like outdoor sports",
-      "interest3": "Agreeable",
-      "interest4": "Honest about my opinion"
+      "username": "KY",
+      "major": "Major in communications",
+      "interest1": "Compassionate",
+      "interest2": "Laid-back",
+      "interest3": "I like hiking and camping",
+      "interest4": "Patient"
     },
 
   ]
