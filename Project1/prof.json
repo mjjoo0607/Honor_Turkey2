@@ -16,7 +16,7 @@ window.others = {
         "likes": [12000, 80000] //3
       },
       {
-        "avatar": "avatars/others/george.png",
+        "avatar": "avatars/others/niki.png",
         "username": "KY",
         "text": "One of the things that may make me stand out is that I will finally be traveling abroad next semester for the first time in my life. It took months of planning and a lot of stress. This is a very proud and exciting moment for me because I have always dreamed of studying in another country. I will be traveling to Netherlands and learning the language while attending classes for my studies as well. I am also very proud of the fact that I am good at maintaining balance in my life compared to my friends. Being balanced and having a balanced life is one of the hardest things to pull off, especially when it feels like there are tasks, commitments, and opportunities that are always being thrown at you to manage. While attaining balance is a never-ending struggle, I feel as though I have done a good job with having a strong sense of self-discipline and time management to be able to do what I have to do. While that sometimes comes at a cost of less sleep or a missed social opportunity, I am proud to say that I am able to do what needs to be done.",
 		"likes": [20000, 21000] //2
@@ -28,7 +28,7 @@ window.others = {
         "likes": [10000, 80000, 120000] //3
       },
       {
-        "avatar": "avatars/others/niki.png",
+        "avatar": "avatars/others/george.png",
         "username": "Nick",
         "text": "My life revolves around rock climbing. I started climbing when I was 12 (turning 18 soon) and usually climb 4-5 hours a day. Climbing never bores me, because each time is different – the routes, the weather, my strength and endurance. It’s great!",
         "likes": [40000, 25000, 90000, 155000] //4
