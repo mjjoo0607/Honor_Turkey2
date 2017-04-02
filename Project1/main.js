@@ -407,7 +407,7 @@ function cont_fb_intro() {
       //Apurva
       //When user receives comments
       function usercomments() {
-          var arr = ['AncaD says:What you have written down seems like a complete lie to me.' , "Sarah says: I didn't like you wrote there. I think you should have put more effort in it", "Nick says: I enjoyed reading your description!"],
+          var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
               rand = Math.floor(Math.random() * arr.length),
               func = arr[rand]
           
@@ -423,7 +423,7 @@ function cont_fb_intro() {
            },35000);*/
 	  
           setTimeout(function () {
-              alertify.success('Georgeee says: "Hello! nice to meet you"');
+              alertify.success('Pat says: "Hi! nice to meet you"');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
