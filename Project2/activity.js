@@ -17,7 +17,7 @@ $(function () {
     }
 
     function init_choose() {
-	
+	window.onbeforeunload = null; 
         $('#mcat').show();
 	//window.partner = $('.form input[name="partner"]:checked').val();
 	    //window.partner= $("#form input[name='partner']:checked").val();
