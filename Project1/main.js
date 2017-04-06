@@ -29,8 +29,8 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-   // settings.tasklength = 18000; 
-    settings.tasklength = 180000; 
+    settings.tasklength = 240000; 
+//     settings.tasklength = 180000; 
 	
 	// **Number** **of** **"likes"**    
     // Each received "like" is indicated by the timepoint (in ms) at which the "like" will appear. To change the number of "likes" in each condition, add or remove timepoints. Make sure that every timepoint (except the first) is preceded by a single comma. 
