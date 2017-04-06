@@ -424,7 +424,7 @@ function cont_fb_intro() {
            },35000);*/
 	  
           setTimeout(function () {
-              alertify.success('Pat says: "Hi! nice to meet you"');
+              alertify.success('Sam says: "Hi! nice to meet you"');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
