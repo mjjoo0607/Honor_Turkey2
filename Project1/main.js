@@ -410,8 +410,8 @@ function cont_fb_intro() {
       function usercomments() {
           var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
               rand = Math.floor(Math.random() * arr.length),
-//               func = arr[rand]
-	      window.func = arr[rand]
+              func = arr[rand]
+// 	      window.func = arr[rand]
           
 //               $(document).ready(function() {
 //             // $('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
@@ -436,8 +436,8 @@ function cont_fb_intro() {
           }, 30000);   
 	  
           setTimeout(function () {
-		 alertify.success(window.func);
-//               alertify.success(func);
+// 		 alertify.success(window.func);
+              alertify.success(func);
           }, 100000);
 	  if(rand==0) {
 		setTimeout(function () {
@@ -479,7 +479,7 @@ function cont_fb_intro() {
 
        // Redirect link
 // 	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4);     
-	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+encodeURI(window.func);          
+	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+encodeURI(func);          
      });
     
     },window.settings.tasklength); // timing for task
