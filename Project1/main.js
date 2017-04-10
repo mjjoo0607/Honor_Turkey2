@@ -407,10 +407,14 @@ function cont_fb_intro() {
 
       //Apurva
       //When user receives comments
+	    var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
+                rand = Math.floor(Math.random() * arr.length),
+	        func = arr[rand];
+	  
       function usercomments() {
-          var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
-              rand = Math.floor(Math.random() * arr.length),
-	      func = arr[rand]
+//           var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
+//               rand = Math.floor(Math.random() * arr.length),
+// 	      func = arr[rand]
             
 	    setTimeout(function () {
               alertify.success('Sam says: "Hi! Nice to meet you"');
