@@ -39,7 +39,7 @@ $(function() {
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
    // A     settings.condition_1_likes = [12000, 9999999]; 
 // 	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
-	   settings.condition_1_likes = [12000, 120000, 80000, 9999999]; 
+	   settings.condition_1_likes = [12000, 220000, 80000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
 //        settings.condition_2_likes = [10000, 15000,35000,80000,132000,150000];  
@@ -54,7 +54,7 @@ $(function() {
 // 	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
 // 	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,20000]; // 9
 // 	settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
-	settings.condition_1_adjusted_likes = [15000,35000,80000,20000]; // 4
+	settings.condition_1_adjusted_likes = [15000,35000,80000,200000]; // 4
 	settings.condition_2_adjusted_likes = [14000,35000,80000]; // 3
 	settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
 	
@@ -63,7 +63,7 @@ $(function() {
 	//settings.likes_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
       //Apurva
 	settings.likes_by = ['Chris', 'Pat', 'Ky'];
-	settings.comments_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
+	settings.comments_by = ['Chris', 'Pat', 'Ky', 'Sam'];
       //Apurva
   }
   
@@ -417,7 +417,7 @@ function cont_fb_intro() {
 // 	      func = arr[rand]
             
 	    setTimeout(function () {
-              alertify.success('Sam says: "Hi! Nice to meet you"');
+              alertify.success('Sam says: Hi! Nice to meet you');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
@@ -472,85 +472,10 @@ function cont_fb_intro() {
        // Redirect link
 	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
   	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
- 	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+rand;   
+ 	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func;   
      });
 	      
-///////////////////////////////////////////////////////////////////      
-//               func = arr[rand]
-// // 	      window.func = arr[rand]
-          
-// //               $(document).ready(function() {
-// //             // $('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
-// //             $('#bottomcomment2').show();
-// //           },35000);
-	      
-//              /* $(document).ready(function() {
-//               //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
-// 		$('#bottomcomment').delay(25000);
-//              $('#bottomcomment').show();
-//            },35000);*/
-	  
-//           setTimeout(function () {
-//               alertify.success('Sam says: "Hi! Nice to meet you"');
-// 		  //document.getElementById("bottomcomment").style.visibility = "visible";
-//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-//           }, 30000);
-// 	   setTimeout(function () {
-//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
-// 		  document.getElementById("bottomcomment").style.visibility = "visible";
-//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-//           }, 30000);   
-	  
-//           setTimeout(function () {
-// // 		 alertify.success(window.func);
-//               alertify.success(func);
-//           }, 100000);
-// 	  if(rand==0) {
-// 		setTimeout(function () {
-//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
-// 		  document.getElementById("bottomcomment1").style.visibility = "visible";
-//            },100000);
-// 	  }
-// 	  else if(rand==1) {
-// 		setTimeout(function () {
-//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
-// 		  document.getElementById("bottomcomment2").style.visibility = "visible";
-//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-//            },100000);
-// 	  }
-// 	  else if(rand==2) {
-// 		setTimeout(function () {
-//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
-// 		  document.getElementById("bottomcomment3").style.visibility = "visible";
-//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
-//            },100000);
-// 	  }
-//           // $(document).ready(function() {
-//           //   $(func).hide().delay(35000).addClass("displaycomments");
-//           // });
-//        }
-//       usercomments();
-// 	  //Apurva
-
-//     // Redirect, default after 180000ms = 180s = 3min
-//     setTimeout(function() {
     
-//     $(window).unbind('beforeunload');
-    
-//     $('#final-continue').show();
-
-//     $('#timer').text('00:00');
-    
-//      $('#final-continue').on('click', function() {
-
-//        // Redirect link
-// 	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
-//   	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
-//  	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+encodeURI(func);   
-//      });
-	    
-//////////////////////////////////////////////////////////////////////
-	    
     },window.settings.tasklength); // timing for task
 
   }
