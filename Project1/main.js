@@ -39,11 +39,11 @@ $(function() {
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
    // A     settings.condition_1_likes = [12000, 9999999]; 
 // 	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
-	   settings.condition_1_likes = [12000, 220000, 80000, 9999999]; 
+	   settings.condition_1_likes = [12000, 120000, 80000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
 //        settings.condition_2_likes = [10000, 15000,35000,80000,132000,150000];  
-         settings.condition_2_likes = [35000,80000,132000,200000];  
+         settings.condition_2_likes = [35000,80000,132000,150000];  
 	  
     // In condition 3, user will receive 9 likes at the following timepoints (in ms). Default: [10000, 11000,15000,35000,80000,100000,110000,150000,20000]
 //     settings.condition_3_likes = [10000, 11000,15000,35000,80000,100000,110000,150000,20000]; 
@@ -410,21 +410,9 @@ function cont_fb_intro() {
       function usercomments() {
           var arr = ["Pat says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Pat says: I didnot like what you wrote there. I think you should have put more effort in it ", "Pat says: I enjoyed reading your description!"],
               rand = Math.floor(Math.random() * arr.length),
-              func = arr[rand]
-// 	      window.func = arr[rand]
-          
-//               $(document).ready(function() {
-//             // $('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
-//             $('#bottomcomment2').show();
-//           },35000);
-	      
-             /* $(document).ready(function() {
-              //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
-		$('#bottomcomment').delay(25000);
-             $('#bottomcomment').show();
-           },35000);*/
-	  
-          setTimeout(function () {
+	      func = arr[rand]
+            
+	            setTimeout(function () {
               alertify.success('Sam says: "Hi! Nice to meet you"');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
@@ -464,7 +452,7 @@ function cont_fb_intro() {
           // });
        }
       usercomments();
-	  //Apurva
+   //Apurva
 
     // Redirect, default after 180000ms = 180s = 3min
     setTimeout(function() {
@@ -482,7 +470,83 @@ function cont_fb_intro() {
   	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
  	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+encodeURI(func);   
      });
+	      
+///////////////////////////////////////////////////////////////////      
+//               func = arr[rand]
+// // 	      window.func = arr[rand]
+          
+// //               $(document).ready(function() {
+// //             // $('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
+// //             $('#bottomcomment2').show();
+// //           },35000);
+	      
+//              /* $(document).ready(function() {
+//               //$('Georgeee commented "Hello! nice to meet you"').hide().delay(25000).addClass("displaycomments");
+// 		$('#bottomcomment').delay(25000);
+//              $('#bottomcomment').show();
+//            },35000);*/
+	  
+//           setTimeout(function () {
+//               alertify.success('Sam says: "Hi! Nice to meet you"');
+// 		  //document.getElementById("bottomcomment").style.visibility = "visible";
+//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+//           }, 30000);
+// 	   setTimeout(function () {
+//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
+// 		  document.getElementById("bottomcomment").style.visibility = "visible";
+//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+//           }, 30000);   
+	  
+//           setTimeout(function () {
+// // 		 alertify.success(window.func);
+//               alertify.success(func);
+//           }, 100000);
+// 	  if(rand==0) {
+// 		setTimeout(function () {
+//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
+// 		  document.getElementById("bottomcomment1").style.visibility = "visible";
+//            },100000);
+// 	  }
+// 	  else if(rand==1) {
+// 		setTimeout(function () {
+//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
+// 		  document.getElementById("bottomcomment2").style.visibility = "visible";
+//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+//            },100000);
+// 	  }
+// 	  else if(rand==2) {
+// 		setTimeout(function () {
+//               //alertify.success('Georgeee commented "Hello! nice to meet you"');
+// 		  document.getElementById("bottomcomment3").style.visibility = "visible";
+//               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
+//            },100000);
+// 	  }
+//           // $(document).ready(function() {
+//           //   $(func).hide().delay(35000).addClass("displaycomments");
+//           // });
+//        }
+//       usercomments();
+// 	  //Apurva
+
+//     // Redirect, default after 180000ms = 180s = 3min
+//     setTimeout(function() {
     
+//     $(window).unbind('beforeunload');
+    
+//     $('#final-continue').show();
+
+//     $('#timer').text('00:00');
+    
+//      $('#final-continue').on('click', function() {
+
+//        // Redirect link
+// 	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description);
+//   	//location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='encodeURI(window.attribute1)+'&a2='encodeURI(window.attribute2)+'&a3='encodeURI(window.attribute3)+'&a4='encodeURI(window.attribute4);
+//  	location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+encodeURI(func);   
+//      });
+	    
+//////////////////////////////////////////////////////////////////////
+	    
     },window.settings.tasklength); // timing for task
 
   }
