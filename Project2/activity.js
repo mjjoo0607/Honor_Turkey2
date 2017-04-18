@@ -77,7 +77,6 @@ function choosePartner() {
 	    window.partner=$("input[name='partner']:checked", '#form').val();
 	    //alert($(".partner:checked").val());
 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
-// 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner+?id=%SURVEY_CODE%;
 	});
 }
     function init_thankyou() {
