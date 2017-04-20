@@ -180,6 +180,14 @@ $(function() {
 	    var wordCount = value.trim().replace(regex, ' ').split(' ').length;
 	   
 	    $('#wordCount').html(wordCount);
+		$(document).ready(function() {
+		    $('#text').change(counter);
+		    $('#text').keydown(counter);
+		    $('#text').keypress(counter);
+		    $('#text').keyup(counter);
+		    $('#text').blur(counter);
+		    $('#text').focus(counter);
+		});
 	  	// 4/20/2017
 	  
   	$('#submit_text').on('click',function() {
