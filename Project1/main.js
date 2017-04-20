@@ -169,6 +169,7 @@ $(function() {
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
 //   	});
 	// 4/20/2017
+	  counter = function() {
 	  var value = $('#text').val();
 
 	    if (value.length == 0) {
@@ -177,9 +178,9 @@ $(function() {
 	    }
 
 	    var regex = /\s+/gi;
-	    var wordCount = value.trim().replace(regex, ' ').split(' ').length;
-	   
-	    $('#wordCount').html(wordCount);
+	    var wordCount = value.trim().replace(regex, ' ').split(' ').length;	   
+	     $('#wordCount').html(wordCount);
+		  };
 		$(document).ready(function() {
 		    $('#description').change(counter);
 		    $('#description').keydown(counter);
