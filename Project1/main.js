@@ -167,7 +167,7 @@ $(function() {
   	$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
-  	});
+//   	});
 	// 4/20/2017
 	  var value = $('#text').val();
 
@@ -187,6 +187,7 @@ $(function() {
 		    $('#description').keyup(counter);
 		    $('#description').blur(counter);
 		    $('#description').focus(counter);
+		});
 		});
 	  	// 4/20/2017
 	  
