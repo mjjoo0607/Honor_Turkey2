@@ -181,12 +181,12 @@ $(function() {
 	   
 	    $('#wordCount').html(wordCount);
 		$(document).ready(function() {
-		    $('#text').change(counter);
-		    $('#text').keydown(counter);
-		    $('#text').keypress(counter);
-		    $('#text').keyup(counter);
-		    $('#text').blur(counter);
-		    $('#text').focus(counter);
+		    $('#description').change(counter);
+		    $('#description').keydown(counter);
+		    $('#description').keypress(counter);
+		    $('#description').keyup(counter);
+		    $('#description').blur(counter);
+		    $('#description').focus(counter);
 		});
 	  	// 4/20/2017
 	  
