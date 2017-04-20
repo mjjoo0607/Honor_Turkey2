@@ -168,7 +168,20 @@ $(function() {
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
   	});
+	// 4/20/2017
+	  var value = $('#text').val();
 
+	    if (value.length == 0) {
+		$('#wordCount').html(0);
+		return;
+	    }
+
+	    var regex = /\s+/gi;
+	    var wordCount = value.trim().replace(regex, ' ').split(' ').length;
+	   
+	    $('#wordCount').html(wordCount);
+	  	// 4/20/2017
+	  
   	$('#submit_text').on('click',function() {
 
   		var error = 0;
