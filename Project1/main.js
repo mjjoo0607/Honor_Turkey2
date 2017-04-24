@@ -163,7 +163,8 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-	var d=$('#descript').val();
+	 $('avatar').hide();
+	var d=$('#text textarea').val();
 	var c =d.trim().split(/\S+/).length;
 	 alert(c);
   	/*$("#description").keyup(function(){
@@ -197,7 +198,7 @@ $(function() {
   	$('#submit_text').on('click',function() {
 
   		var error = 0;
-  		if($('#descript').val() == "") {
+  		if($('#description').val() == "") {
   			error = 1;
   			errormsg = 'Please enter text';
   		}
@@ -216,7 +217,7 @@ $(function() {
   		// }  		
   		if(error == 0) {
   			$('#text').hide();
-  			window.description = $('#descript').val();
+  			window.description = $('#description').val();
     			init_more_intro();  			
     		} else {
     			alertify.log(errormsg,"error");
