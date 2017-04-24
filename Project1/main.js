@@ -29,8 +29,8 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 240000; 
-//     settings.tasklength = 180000; 
+//     settings.tasklength = 240000; 
+    settings.tasklength = 180000; 
 	
 	// **Number** **of** **"likes"**    
     // Each received "like" is indicated by the timepoint (in ms) at which the "like" will appear. To change the number of "likes" in each condition, add or remove timepoints. Make sure that every timepoint (except the first) is preceded by a single comma. 
@@ -39,7 +39,7 @@ $(function() {
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
    // A     settings.condition_1_likes = [12000, 9999999]; 
 // 	settings.condition_1_likes = [12000, 20000, 30000, 9999999]; 
-	   settings.condition_1_likes = [12000, 220000, 80000, 9999999]; 
+	   settings.condition_1_likes = [12000, 120000, 80000, 9999999]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
 //        settings.condition_2_likes = [10000, 15000,35000,80000,132000,150000];  
@@ -57,7 +57,7 @@ $(function() {
 // 	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,20000]; // 9
 // 	settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
 // 	settings.condition_1_adjusted_likes = [15000,35000,80000,200000]; // 4
-	settings.condition_1_adjusted_likes = [15000,80000,200000]; // 3
+	settings.condition_1_adjusted_likes = [15000,80000,100000]; // 3
 	settings.condition_2_adjusted_likes = [14000,35000,80000]; // 3
 	settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
 	
@@ -163,34 +163,12 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-	// alert(c);
-  	/*$("#description").keyup(function(){
-  	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
-  	    $("#count").text("Characters left: " + (500 - $(this).val().length));
-//   	});
-	// 4/20/2017
-	  counter = function() {
-	  var value = $('#text').val();
-
-	    if (value.length == 0) {
-		$('#wordCount').html(0);
-		return;
-	    }
-
-	    var regex = /\s+/gi;
-	    var wordCount = value.trim().replace(regex, ' ').split(' ').length;	   
-	     $('#wordCount').html(wordCount);
-		  };
-		$(document).ready(function() {
-		    $('#description').change(counter);
-		    $('#description').keydown(counter);
-		    $('#description').keypress(counter);
-		    $('#description').keyup(counter);
-		    $('#description').blur(counter);
-		    $('#description').focus(counter);
-		});
-		});*/
-	  	// 4/20/2017
+ 	 alert(c);
+  	$("#description").keyup(function(){
+  	    $("#count").text("Characters left: " + (450 - $(this).val().length));
+//   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
+   	});
+	
 	/*RANDOM CHANGES
 	var d=$('description').val();
 	alert(d);
@@ -206,7 +184,7 @@ $(function() {
   			errormsg = 'Please enter text';
   		}
   	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
-  		if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva*/
+  		if ($('#description').val() !== "" && $('#description').val().length < 450) {   //Apurva*/
 //         if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
 		
   			error = 1;
