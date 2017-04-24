@@ -163,9 +163,9 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-	var des=$('#text textarea').val();
-	var count =des.trim().split(/\S+/).length;
-	 alert(count);
+	var d=$('#descript').val();
+	var c =d.trim().split(/\S+/).length;
+	 alert(c);
   	/*$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
@@ -197,7 +197,7 @@ $(function() {
   	$('#submit_text').on('click',function() {
 
   		var error = 0;
-  		if($('#description').val() == "") {
+  		if($('#descript').val() == "") {
   			error = 1;
   			errormsg = 'Please enter text';
   		}
@@ -216,7 +216,7 @@ $(function() {
   		// }  		
   		if(error == 0) {
   			$('#text').hide();
-  			window.description = $('#description').val();
+  			window.description = $('#descript').val();
     			init_more_intro();  			
     		} else {
     			alertify.log(errormsg,"error");
