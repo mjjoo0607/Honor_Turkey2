@@ -191,12 +191,13 @@ $(function() {
 		});
 		});*/
 	  	// 4/20/2017
+	/*RANDOM CHANGES
 	var d=$('description').val();
 	alert(d);
 	 var dd=$('text textarea').val();
 	  alert(dd);
 	var c =d.trim().split(' ').length;
-	 alert(c);
+	 alert(c);*/
   	$('#submit_text').on('click',function() {
 
   		var error = 0;
@@ -205,9 +206,9 @@ $(function() {
   			errormsg = 'Please enter text';
   		}
   	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
-  		/*if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva*/
+  		if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva*/
 //         if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
-		if(count<150) {
+		
   			error = 1;
   			errormsg = 'Please write a bit more';
 			}
