@@ -163,8 +163,9 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-
-  	$("#description").keyup(function(){
+	var des=$('#description').val();
+	var count =des.trim().split(/\s+/).length;
+  	/*$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
 //   	});
@@ -189,7 +190,7 @@ $(function() {
 		    $('#description').blur(counter);
 		    $('#description').focus(counter);
 		});
-		});
+		});*/
 	  	// 4/20/2017
 	  
   	$('#submit_text').on('click',function() {
@@ -200,8 +201,9 @@ $(function() {
   			errormsg = 'Please enter text';
   		}
   	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
-  		if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva
+  		/*if ($('#description').val() !== "" && $('#description').val().length < 500) {   //Apurva*/
 //         if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
+		if(count<150) {
   			error = 1;
   			errormsg = 'Please write a bit more';
 			}
