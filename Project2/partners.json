@@ -2,7 +2,7 @@ window.partners = {
   "partner": [
     {
       "avatar": "avatars/partners/john.png",
-      "username": "Pat",
+      "username": "Jason",
       "major": "Computer Engineering",
       "interest1": "Logical",
       "interest2": "I like puzzles",
