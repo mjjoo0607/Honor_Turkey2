@@ -163,7 +163,7 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-	var des=$('#description').val();
+	var des=$('#text textarea').val();
 	var count =des.trim().split(/\S+/).length;
 	 alert(count);
   	/*$("#description").keyup(function(){
