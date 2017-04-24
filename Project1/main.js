@@ -163,10 +163,9 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-//  	 alert(c);
-  	$("#description").keyup(function(){
+
+	$("#description").keyup(function(){
   	    $("#count").text("Characters left: " + (450 - $(this).val().length));
-//   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
    	});
 	
 	/*RANDOM CHANGES
