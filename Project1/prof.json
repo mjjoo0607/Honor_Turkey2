@@ -4,7 +4,7 @@
 window.others = {
   "posts" : [
       {
-        "avatar": "avatars/others/john.png",
+        "avatar": "avatars/others/pat.png",
         "username": "Jason",
         "text": "I had always gotten good grades in high school. Coming to college, I have found that it takes twice the amount of effort it used to take me in high school to not only get good grades but to truly understand the material. So far, I have received mostly A’s in my college career. There were a few classes that I really had to struggle and push myself to learn and hopefully succeed. It is that part of learning that I feel is the most satisfying and is what I am proudest of achieving. Another achievement that makes me stand out is that I just very recently received an internship opportunity with a company doing statistical data analysis. It has taken a lot of work and it is encouraging to receive tangible rewards for a change. A big reason why this is such a proud achievement is because hopefully this internship will help me build a case for being accepted into graduate school after I receive my undergraduate degree.",
         "likes": [12000, 80000] //3
