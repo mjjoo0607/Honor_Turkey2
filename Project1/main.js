@@ -164,7 +164,8 @@ $(function() {
   function init_text() {
   	$('#text').show();
 	var des=$('#description').val();
-	var count =des.trim().split(/\s+/).length;
+	var count =des.trim().split(/\S+/).length;
+	 alert(count);
   	/*$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
   	    $("#count").text("Characters left: " + (500 - $(this).val().length));
