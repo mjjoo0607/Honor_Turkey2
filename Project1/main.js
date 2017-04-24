@@ -165,7 +165,7 @@ $(function() {
   	$('#text').show();
 	 $('avatar').hide();
 	var d=$('#text textarea').val();
-	var c =d.trim().split(/\S+/).length;
+	var c =d.trim().split(' ').length;
 	 alert(c);
   	/*$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
