@@ -151,7 +151,6 @@ $(function() {
   			$('#avatar').hide();
   			window.avatar = $('.selected').attr('id');
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
-			 $('#avatar').hide();
     			init_text();  			
     		} else {
     			alertify.log("Please select an avatar","error");
@@ -164,9 +163,6 @@ $(function() {
   // **Slide:** **Description**   
   function init_text() {
   	$('#text').show();
-	var d=$('#description').val();
-	  alert(d);
-	var c =d.trim().split(' ').length;
 	// alert(c);
   	/*$("#description").keyup(function(){
   	    //$("#count").text("Characters left: " + (400 - $(this).val().length));
@@ -195,7 +191,9 @@ $(function() {
 		});
 		});*/
 	  	// 4/20/2017
-	  
+	var d=$('#description').val();
+	alert(d);
+	var c =d.trim().split(' ').length;
   	$('#submit_text').on('click',function() {
 
   		var error = 0;
