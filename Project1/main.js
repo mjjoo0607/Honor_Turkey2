@@ -191,7 +191,7 @@ $(function() {
 		});
 		});*/
 	  	// 4/20/2017
-	var d=$('description).val();
+	var d=$('description').val();
 	alert(d);
 	 var dd=$('text textarea').val();
 	  alert(dd);
