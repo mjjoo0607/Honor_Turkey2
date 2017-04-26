@@ -166,7 +166,7 @@ $(function() {
 
 	$("#description").keyup(function(){
 //   	    $("#count").text("Characters left: " + (450 - $(this).val().length));
-  	    $("#count").text("Characters count: " + $(this).val().length);
+  	    $("#count").text("Characters Count: " + $(this).val().length);
 	});
 	
 	/*RANDOM CHANGES
