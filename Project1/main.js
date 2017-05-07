@@ -238,13 +238,25 @@ $(function() {
               window.attribute3 = $('#attr3').val();
               window.attribute4 = $('#attr4').val();
 	      $('#more_intro').hide();
-              init_fb_intro();
+              chooseGender();
           } else {
               alertify.log(errormsg, "error");
           }
 
       });
-  }                 //Apurva
+  }                 
+	
+	function chooseGender() {
+	$('#more_intro').show();
+	//$(window).unbind('beforeunload');
+	$('#submit_gender').on('click', function() {
+	    window.Gend=$("input[name='G']:checked", '#form1').val();
+	    //alert($(".partner:checked").val());
+             $('#Gender').hide();
+		init_fb_intro();
+	});
+	}
+	//Apurva
 
   // **Slide:** **Instructions**   
   function init_fb_intro() {
