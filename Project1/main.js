@@ -247,7 +247,7 @@ $(function() {
   }                 
 	
 	function chooseGender() {
-	$('#more_intro').show();
+	$('#Gender').show();
 	//$(window).unbind('beforeunload');
 	$('#submit_gender').on('click', function() {
 	    window.Gend=$("input[name='G']:checked", '#form1').val();
