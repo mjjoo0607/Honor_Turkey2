@@ -250,7 +250,7 @@ $(function() {
 	$('#Gender').show();
 
 	$('#submit_gender').on('click', function() {
-	    window.Gend=$("input[name='G']:checked", '#form1').val();
+	    window.G=$("input[name='G']:checked", '#form1').val();
 	    //alert($(".partner:checked").val());
              $('#Gender').hide();
 		init_fb_intro();
