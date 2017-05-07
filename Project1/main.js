@@ -246,16 +246,16 @@ $(function() {
       });
   }                 
 	
-	function chooseGender() {
+  function chooseGender() {
 	$('#Gender').show();
-	//$(window).unbind('beforeunload');
+
 	$('#submit_gender').on('click', function() {
 	    window.Gend=$("input[name='G']:checked", '#form1').val();
 	    //alert($(".partner:checked").val());
              $('#Gender').hide();
 		init_fb_intro();
 	});
-	}
+    }
 	//Apurva
 
   // **Slide:** **Instructions**   
