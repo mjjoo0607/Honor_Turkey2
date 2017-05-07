@@ -5,14 +5,14 @@ window.others = {
   "posts" : [
       {
         "avatar": "avatars/others/pat.png",
-        "username": "Jason",
+        "username": "Pat",
         "text": "I had always gotten good grades in high school. Coming to college, I have found that it takes twice the amount of effort it used to take me in high school to not only get good grades but to truly understand the material. So far, I have received mostly A’s in my college career. There were a few classes that I really had to struggle and push myself to learn and hopefully succeed. It is that part of learning that I feel is the most satisfying and is what I am proudest of achieving. Another achievement that makes me stand out is that I just very recently received an internship opportunity with a company doing statistical data analysis. It has taken a lot of work and it is encouraging to receive tangible rewards for a change. A big reason why this is such a proud achievement is because hopefully this internship will help me build a case for being accepted into graduate school after I receive my undergraduate degree.",
         "likes": [12000, 80000] //3
       },      
       
       {
         "avatar": "avatars/others/anca.png",
-        "username": "Katie",
+        "username": "Sam",
         "text": "I got a very high GPA this semester. I was never someone whose grades were outstanding, and that really showed my first two years at university. I had some trouble adjusting to the responsibility of college and my grades suffered for it. Last semester was my first time that I truly enjoyed all of my classes. This gave me the drive to work exceptionally hard on my classes, and led to the best GPA I’d ever received at any level of my education. The second achievement that crosses my mind is about the award I received in high school. In high school, I was really active in my choir program. I entered a singing competition with a friend to perform a duet. We practiced almost everyday to prepare for the performance. I was really nervous to sing in front of a judge because I knew how much work we had both put into our performance and musicianship. When our scores were released, it was also released that my partner and I received “Best of Center”, meaning we were the best that that judge had heard all day. I was so proud of myself and of my partner.",
         "likes": [10000, 80000, 120000] //3
       },
