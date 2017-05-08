@@ -328,7 +328,15 @@ function cont_fb_intro() {
 			}
           ]
       };
-    } else {
+   	// Add user box to slide     
+      var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
+      $("#task").append(html);
+	  
+      // Add other boxes to slide    
+      var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
+      $("#task").append(html);
+	   
+   } else {
 	users = {
           "posts1" : [
 			{
@@ -341,7 +349,15 @@ function cont_fb_intro() {
           "comments": window.settings.condition_comments
 			}
           ]
-      };    }   
+      };   
+    // Add user box to slide     
+      var tpl = $('#usertmp1').html(),html = Mustache.to_html(tpl, users);
+      $("#task").append(html);
+	  
+      // Add other boxes to slide    
+      var tpl = $('#otherstmp1').html(),html = Mustache.to_html(tpl, others);
+      $("#task").append(html);
+    }   
 //       users = {
 //           "posts" : [
 // 			{
@@ -356,13 +372,13 @@ function cont_fb_intro() {
 //           ]
 //       };
 		
-      // Add user box to slide     
-      var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
-      $("#task").append(html);
+//       // Add user box to slide     
+//       var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
+//       $("#task").append(html);
 	  
-      // Add other boxes to slide    
-      var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
-      $("#task").append(html);
+//       // Add other boxes to slide    
+//       var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
+//       $("#task").append(html);
  
       // Randomize order of other players boxes
       function reorder() {
