@@ -18,10 +18,10 @@ window.others = {
         "likes": [10000, 80000, 120000] //3
       },  
       {
-        "avatar": "avatars/others/george.png",
-        "username": "Jason",
-        "text": "I had always gotten good grades in high school. Coming to college, I have found that it takes twice the amount of effort it used to take me in high school to not only get good grades but to truly understand the material. So far, I have received mostly A’s in my college career. There were a few classes that I really had to struggle and push myself to learn and hopefully succeed. It is that part of learning that I feel is the most satisfying and is what I am proudest of achieving. Another achievement that makes me stand out is that I just very recently received an internship opportunity with a company doing statistical data analysis. It has taken a lot of work and it is encouraging to receive tangible rewards for a change. A big reason why this is such a proud achievement is because hopefully this internship will help me build a case for being accepted into graduate school after I receive my undergraduate degree.",
-        "likes": [45000, 50000, 150000] //4
+        "avatar": "avatars/others/lauren.png",
+        "username": "Lauren",
+        "text": "I’m Lauren, I love to hang out with friends and go shopping. Just doing some online studies here!",
+        "likes": [12000, 38000] //1
       },
       {
         "avatar": "avatars/others/john.png",
@@ -53,10 +53,10 @@ window.others = {
 		"likes": [20000, 21000] //2
       },
       {
-        "avatar": "avatars/others/sarah.png",
-        "username": "Chris",
-        "text": "One accomplishment I am proud of is getting into one of my top schools. I worked really hard when studying for the exams. I stepped up to the plate and acted professional, mature, and genuine. I am proud of how I acted in the whole process of university application. I sometimes look back on that time in my life and feel like I was becoming a person who could get things accomplished, could set a goal and meet it. Also, I am proud of making the most out of my time in university. College hasn’t always been the easiest, but I really believe that I have tried a bunch of different clubs and been a part of many different programs that my university offers. Through these programs I’ve been able to meet new people and gain new experiences. I’m excited to graduate in May and work towards a master’s degree.",
-        "likes": [45000, 50000, 150000] //3
+        "avatar": "avatars/others/george.png",
+        "username": "Jason",
+        "text": "I had always gotten good grades in high school. Coming to college, I have found that it takes twice the amount of effort it used to take me in high school to not only get good grades but to truly understand the material. So far, I have received mostly A’s in my college career. There were a few classes that I really had to struggle and push myself to learn and hopefully succeed. It is that part of learning that I feel is the most satisfying and is what I am proudest of achieving. Another achievement that makes me stand out is that I just very recently received an internship opportunity with a company doing statistical data analysis. It has taken a lot of work and it is encouraging to receive tangible rewards for a change. A big reason why this is such a proud achievement is because hopefully this internship will help me build a case for being accepted into graduate school after I receive my undergraduate degree.",
+        "likes": [45000, 50000, 150000] //4
       },
       
     
