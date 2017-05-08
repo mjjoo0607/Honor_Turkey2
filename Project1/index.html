@@ -310,8 +310,7 @@ If you don't have experience with programming, it is important that you alter on
         
 
         <script type="template/text" id="usertmp">
-          <!--  {{#posts}}  -->
-               {{#users}}
+           {{#posts}}  
 
             <div class="entry">
                 <div class="tophalf">
@@ -327,13 +326,11 @@ If you don't have experience with programming, it is important that you alter on
                 </div>
 <!-- ---------------------------------------------------- -->
            <!-- </div> -->
-          <!--  {{/posts}} -->
-                {{/users}}
+            {{/posts}}
         </script>
 
         <script type="template/text" id="otherstmp">
-        <!--  {{#posts}}  -->
-               {{#users}}
+          {{#posts}}  
                <div class="entry">
                 <div class="tophalf">
                     <img src="{{avatar}}" class="avatar">
@@ -362,9 +359,63 @@ If you don't have experience with programming, it is important that you alter on
                 <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
                 </div>
             </div>  
-            <!--  {{/posts}} -->
-                {{/users}}
+             {{/posts}} 
       </script>
+      
+      <!---------------------5/8/17----------- -->
+          <script type="template/text" id="usertmp1">
+           {{#posts1}}  
+
+            <div class="entry">
+                <div class="tophalf">
+                    <img src="{{avatar}}" class="avatar">
+                    <h3>{{username}}</h3>
+                    <div class="main">
+                        <p>{{text}}</p>
+                    </div>
+                    <br style="clear:both;">
+                </div>
+                 <div class="bottomhalf"> 
+                    Likes <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span>
+                </div>
+<!-- ---------------------------------------------------- -->
+           <!-- </div> -->
+            {{/posts1}}
+        </script>
+
+        <script type="template/text" id="otherstmp1">
+          {{#posts1}}  
+               <div class="entry">
+                <div class="tophalf">
+                    <img src="{{avatar}}" class="avatar">
+                    <div class="messagepop pop usrcomment">
+                        <form method="post" id="new_message">
+                            <p><label for="body">Enter your comment below</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
+                            <p><input type="button" value="Cancel" name="cancel" class="close"><input type="button" value="Comment" name="commit" class="close" /></p>
+                        </form>
+                    </div>
+                        <button class="btn-comment">
+                            <img class="commentImg" src="msgIcon.png" alt="Comment" />
+                        </button>        
+                    <!-- Apurva -->
+                        <h3>{{username}}</h3>
+
+                        <div class="main">
+
+                            <p>{{text}}</p>
+                        </div>
+
+                        <br style="clear:both;">
+
+                </div>           
+                <div class="bottomhalf">
+                Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
+                <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
+                </div>
+            </div>  
+             {{/posts1}} 
+      </script>
+      <!-- -------------------5/8/17----------- -->
       </div>
   
 </body>
