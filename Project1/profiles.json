@@ -2,7 +2,8 @@
 // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
 	
 window.others = {
-  "posts1" : [
+  
+	"posts1" : [
      { 
       "avatar": "avatars/others/pat.png",
         "username": "Pat",
@@ -28,6 +29,36 @@ window.others = {
         "text": "One accomplishment I am proud of is getting into one of my top schools. I worked really hard when studying for the exams. I stepped up to the plate and acted professional, mature, and genuine. I am proud of how I acted in the whole process of university application. I sometimes look back on that time in my life and feel like I was becoming a person who could get things accomplished, could set a goal and meet it. Also, I am proud of making the most out of my time in university. College hasn’t always been the easiest, but I really believe that I have tried a bunch of different clubs and been a part of many different programs that my university offers. Through these programs I’ve been able to meet new people and gain new experiences. I’m excited to graduate in May and work towards a master’s degree.",
 		"likes": [20000, 21000] //2
       },
+    
+    ],
+	
+	"posts" : [
+      {
+        "avatar": "avatars/others/pat.png",
+        "username": "Pat",
+        "text": "I had always gotten good grades in high school. Coming to college, I have found that it takes twice the amount of effort it used to take me in high school to not only get good grades but to truly understand the material. So far, I have received mostly A’s in my college career. There were a few classes that I really had to struggle and push myself to learn and hopefully succeed. It is that part of learning that I feel is the most satisfying and is what I am proudest of achieving. Another achievement that makes me stand out is that I just very recently received an internship opportunity with a company doing statistical data analysis. It has taken a lot of work and it is encouraging to receive tangible rewards for a change. A big reason why this is such a proud achievement is because hopefully this internship will help me build a case for being accepted into graduate school after I receive my undergraduate degree.",
+        "likes": [12000, 80000] //3
+      },      
+      
+      {
+        "avatar": "avatars/others/anca.png",
+        "username": "Sam",
+        "text": "I got a very high GPA this semester. I was never someone whose grades were outstanding, and that really showed my first two years at university. I had some trouble adjusting to the responsibility of college and my grades suffered for it. Last semester was my first time that I truly enjoyed all of my classes. This gave me the drive to work exceptionally hard on my classes, and led to the best GPA I’d ever received at any level of my education. The second achievement that crosses my mind is about the award I received in high school. In high school, I was really active in my choir program. I entered a singing competition with a friend to perform a duet. We practiced almost everyday to prepare for the performance. I was really nervous to sing in front of a judge because I knew how much work we had both put into our performance and musicianship. When our scores were released, it was also released that my partner and I received “Best of Center”, meaning we were the best that that judge had heard all day. I was so proud of myself and of my partner.",
+        "likes": [10000, 80000, 120000] //3
+      },
+      {
+        "avatar": "avatars/others/niki.png",
+        "username": "KY",
+        "text": "One of the things that may make me stand out is that I will finally be traveling abroad next semester for the first time in my life. It took months of planning and a lot of stress. This is a very proud and exciting moment for me because I have always dreamed of studying in another country. I will be traveling to Netherlands and learning the language while attending classes for my studies as well. I am also very proud of the fact that I am good at maintaining balance in my life compared to my friends. Being balanced and having a balanced life is one of the hardest things to pull off, especially when it feels like there are tasks, commitments, and opportunities that are always being thrown at you to manage. While attaining balance is a never-ending struggle, I feel as though I have done a good job with having a strong sense of self-discipline and time management to be able to do what I have to do. While that sometimes comes at a cost of less sleep or a missed social opportunity, I am proud to say that I am able to do what needs to be done.",
+		"likes": [20000, 21000] //2
+      },
+      {
+        "avatar": "avatars/others/sarah.png",
+        "username": "Chris",
+        "text": "One accomplishment I am proud of is getting into one of my top schools. I worked really hard when studying for the exams. I stepped up to the plate and acted professional, mature, and genuine. I am proud of how I acted in the whole process of university application. I sometimes look back on that time in my life and feel like I was becoming a person who could get things accomplished, could set a goal and meet it. Also, I am proud of making the most out of my time in university. College hasn’t always been the easiest, but I really believe that I have tried a bunch of different clubs and been a part of many different programs that my university offers. Through these programs I’ve been able to meet new people and gain new experiences. I’m excited to graduate in May and work towards a master’s degree.",
+        "likes": [45000, 50000, 150000] //3
+      },
+      
     
     ]
   };
