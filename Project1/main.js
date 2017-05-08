@@ -313,7 +313,8 @@ function cont_fb_intro() {
               $('#timer').text('00:00');
           }
       });
-	   
+
+   if(window.G == "Male") {
       users = {
           "posts" : [
 			{
@@ -327,6 +328,33 @@ function cont_fb_intro() {
 			}
           ]
       };
+    } else {
+	users = {
+          "posts1" : [
+			{
+			    "avatar": 'avatars/' + window.avatar + '.png',
+			    "username": window.username,
+			    "text": window.description,
+			    "likes": window.settings.condition_likes,
+			    "usernames": window.settings.likes_by,
+          // Apurva
+          "comments": window.settings.condition_comments
+			}
+          ]
+      };    }   
+//       users = {
+//           "posts" : [
+// 			{
+// 			    "avatar": 'avatars/' + window.avatar + '.png',
+// 			    "username": window.username,
+// 			    "text": window.description,
+// 			    "likes": window.settings.condition_likes,
+// 			    "usernames": window.settings.likes_by,
+//           // Apurva
+//           "comments": window.settings.condition_comments
+// 			}
+//           ]
+//       };
 		
       // Add user box to slide     
       var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
