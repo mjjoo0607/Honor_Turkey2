@@ -2,7 +2,7 @@
 // Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
 	
 window.others = {
-  "posts" : [
+  "posts1" : [
      { 
       "avatar": "avatars/others/pat.png",
         "username": "Pat",
