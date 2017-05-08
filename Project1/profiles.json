@@ -3,7 +3,7 @@
 	
 window.others = {
   
-	"female" : [
+	"posts1" : [
      { 
       "avatar": "avatars/others/pat.png",
         "username": "Pat",
@@ -32,7 +32,7 @@ window.others = {
     
     ],
 	
-	"male" : [
+	"posts" : [
       {
         "avatar": "avatars/others/pat.png",
         "username": "Pat",
