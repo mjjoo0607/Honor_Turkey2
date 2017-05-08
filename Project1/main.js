@@ -65,8 +65,8 @@ $(function() {
 	// If group member names are changed, these should be changed accordingly.
 	//settings.likes_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
       //Apurva
-	settings.likes_by = ['Chris', 'Katie', 'KY'];
-	settings.comments_by = ['Chris', 'Jason', 'KY', 'Katie'];
+	settings.likes_by = ['Chris', 'Pat', 'Sam', 'KY'];
+	settings.comments_by = ['Chris', 'Pat', 'Sam', 'KY'];
       //Apurva
   }
   
@@ -474,7 +474,7 @@ function cont_fb_intro() {
 
       //Apurva
       //When user receives comments
-	    var arr = ["Jason says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. " , "Jason says: I didnot like what you wrote there. I think you should have put more effort in it ", "Jason says: I enjoyed reading your description!"],
+	    var arr = ["Pat says: I enjoyed reading your description " , "Pat says: I didn’t like what you wrote there, I think you should have put more effort in it", "Pat says: Yeah, right. It looks like you are making this up."],
                 rand = Math.floor(Math.random() * arr.length),
 	        func = arr[rand];
 	  
@@ -484,7 +484,7 @@ function cont_fb_intro() {
 // 	      func = arr[rand]
             
 	    setTimeout(function () {
-              alertify.success('Katie says: Hi! Nice to meet you');
+              alertify.success('Sam says: Hi! Nice to meet you');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
