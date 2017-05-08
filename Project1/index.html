@@ -363,6 +363,100 @@ If you don't have experience with programming, it is important that you alter on
             {{/posts}}
             </script>
     </div>
+  
+        <div id="task1" style="display:none;">
+            <div id="countdown" class="countdwn" >
+                <span class="secs" style="display: none;"></span>You can click "Like" if you have enjoyed somebody's description<br><br>time left:<br><span id="timer" class="cntr label label-info"></span>
+                <br>
+<!--               <button type="submit" id='final-continue' style="display:none;">Continue</button> -->
+             <button type="submit" id='final-continue' style="display:none;">Continue</button>
+              
+               <div class="tophalf1">
+                <!-- <b>Your Comments:</b><br> -->
+                <br>
+                <br>
+<!--                  <div id="bottomcomment" style='visibility:hidden;background-image: url("call0.png");'> -->
+                 <div id="bottomcomment" style="visibility:hidden;background-image: url("call0.png");background-size: 81%;">
+                 <p style="color:white;font-size:0.1%"> Katie says: Hi! Nice to meet you </p>    
+                 <img src="00.png" alt="0">
+                 </div>
+<!--                  <div id="bottomcomment1" style='visibility:hidden;background-image: url("call1.png");'>                   -->
+                 <div id="bottomcomment1" style="visibility:hidden;background-image: url("call1.png");background-size: 81%;">
+                 <p style="color:white;font-size:0.1%">Jason says: It's easy to lie just to make sure you impress other people.. I think you are lying to make sure people will like you. </p>
+                 <img src="11.png" alt="1">
+                 </div>
+<!--                  <div id="bottomcomment2" style='visibility:hidden;background-image: url("call2.png");'>  -->
+                 <div id="bottomcomment2" style="visibility:hidden;background-image: url("call2.png");background-size: 81%;" >
+                 <p style="color:white;font-size:0.1%">Jason says: I didnot like what you wrote there. I think you should have put more effort in it </p>
+                 <img src="22.png" alt="2">
+                 </div>
+<!--                  <div id="bottomcomment3" style='visibility:hidden;background-image: url("call3.png");'> -->
+                 <div id="bottomcomment3" style="visibility:hidden;background-image: url("call3.png");background-size: 81%;">
+                 <p style="color:white;font-size:0.1%">Jason says: I enjoyed reading your description! I think you are lying to make sure people will like you. </p>  
+                 <img src="33.png" alt="3">
+                 <br>
+                 </div>              
+                </div>
+              <br style="clear:both;">
+              
+            </div>
+        </div>
+        
 
+        <script type="template/text" id="usertmp">
+            {{#posts1}}
+
+            <div class="entry">
+                <div class="tophalf">
+                    <img src="{{avatar}}" class="avatar">
+                    <h3>{{username}}</h3>
+                    <div class="main">
+                        <p>{{text}}</p>
+                    </div>
+                    <br style="clear:both;">
+                </div>
+                 <div class="bottomhalf"> 
+                    Likes <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span>
+                </div>
+<!-- ---------------------------------------------------- -->
+           <!-- </div> -->
+            {{/posts1}}
+        </script>
+
+
+        <script type="template/text" id="otherstmp">
+            {{#posts1}}
+            <div class="entry">
+                <div class="tophalf">
+                    <img src="{{avatar}}" class="avatar">
+                    <div class="messagepop pop usrcomment">
+                        <form method="post" id="new_message">
+                            <p><label for="body">Enter your comment below</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
+                            <p><input type="button" value="Cancel" name="cancel" class="close"><input type="button" value="Comment" name="commit" class="close" /></p>
+                        </form>
+                    </div>
+                        <button class="btn-comment">
+                            <img class="commentImg" src="msgIcon.png" alt="Comment" />
+                        </button>        
+                    <!-- Apurva -->
+                        <h3>{{username}}</h3>
+
+                        <div class="main">
+
+                            <p>{{text}}</p>
+                        </div>
+
+                        <br style="clear:both;">
+
+                </div>           
+                <div class="bottomhalf">
+                Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
+                <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
+                </div>
+            </div>  
+            {{/posts1}}
+            </script>
+    </div>
+  
 </body>
 </html>
