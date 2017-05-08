@@ -310,7 +310,8 @@ If you don't have experience with programming, it is important that you alter on
         
 
         <script type="template/text" id="usertmp">
-            {{#posts}}
+          <!--  {{#posts}}  -->
+               {{#users}}
 
             <div class="entry">
                 <div class="tophalf">
@@ -326,12 +327,14 @@ If you don't have experience with programming, it is important that you alter on
                 </div>
 <!-- ---------------------------------------------------- -->
            <!-- </div> -->
-            {{/posts}}
+          <!--  {{/posts}} -->
+                {{/users}}
         </script>
 
         <script type="template/text" id="otherstmp">
-            {{#posts}}
-            <div class="entry">
+        <!--  {{#posts}}  -->
+               {{#users}}
+               <div class="entry">
                 <div class="tophalf">
                     <img src="{{avatar}}" class="avatar">
                     <div class="messagepop pop usrcomment">
@@ -359,8 +362,9 @@ If you don't have experience with programming, it is important that you alter on
                 <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
                 </div>
             </div>  
-            {{/posts}}
-            </script>
+            <!--  {{/posts}} -->
+                {{/users}}
+      </script>
       </div>
   
 </body>
