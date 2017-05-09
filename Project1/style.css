@@ -419,5 +419,20 @@ display: inline-block;
 #attr {
 display: inline-block;
 }
+/* 5/8/2017 */
+.controls label {
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 40px;
+}
+.controls input {
+    display: block;
+    margin: 0 auto -40px;
+}
+/* 5/8/2017 */
+
 
 /* Apurva */
