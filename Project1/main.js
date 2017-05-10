@@ -562,10 +562,8 @@ function cont_fb_intro() {
 	      
     
     },window.settings.tasklength); // timing for task
-
-  }
-	
-  function survey_par() {
+	  
+     function survey_par() {
       $('#par_survey').show();
 	  $('#survey-continue').on('click', function() {
 	    window.s11=$("input[name='s11']:checked", '#response1').val();
@@ -587,10 +585,42 @@ function cont_fb_intro() {
 	    window.s35=$("input[name='s35']:checked", '#response555').val();
 	    window.s36=$("input[name='s36']:checked", '#response666').val();
             $('#par_survey').hide();
+	    
+		 location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func;   
 	    //alert($(".partner:checked").val());
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
   
   }
+
+  }
+	
+//   function survey_par() {
+//       $('#par_survey').show();
+// 	  $('#survey-continue').on('click', function() {
+// 	    window.s11=$("input[name='s11']:checked", '#response1').val();
+//             window.s12=$("input[name='s12']:checked", '#response2').val();
+//             window.s13=$("input[name='s13']:checked", '#response3').val();
+// 	    window.s14=$("input[name='s14']:checked", '#response4').val();
+// 	    window.s15=$("input[name='s15']:checked", '#response5').val();
+// 	    window.s16=$("input[name='s16']:checked", '#response6').val();
+// 	    window.s21=$("input[name='s21']:checked", '#response11').val();
+// 	    window.s22=$("input[name='s22']:checked", '#response22').val();
+// 	    window.s23=$("input[name='s23']:checked", '#response33').val();
+// 	    window.s24=$("input[name='s24']:checked", '#response44').val();
+// 	    window.s25=$("input[name='s25']:checked", '#response55').val();
+// 	    window.s26=$("input[name='s26']:checked", '#response66').val();
+// 	    window.s31=$("input[name='s21']:checked", '#response111').val();
+// 	    window.s32=$("input[name='s32']:checked", '#response222').val();
+// 	    window.s33=$("input[name='s33']:checked", '#response333').val();
+// 	    window.s34=$("input[name='s34']:checked", '#response444').val();
+// 	    window.s35=$("input[name='s35']:checked", '#response555').val();
+// 	    window.s36=$("input[name='s36']:checked", '#response666').val();
+//             $('#par_survey').hide();
+// 	    //alert($(".partner:checked").val());
+// // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
+  
+//   }
+// // --------------- 5/10/2017 ---------------- //
 
   // Get URL parameters to set condition number and participant number
   function get_params() {
