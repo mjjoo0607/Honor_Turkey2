@@ -591,7 +591,7 @@ function cont_fb_intro() {
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
   
   });
-     }
+//      }
 
   }
 	
