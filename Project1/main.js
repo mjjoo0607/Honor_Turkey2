@@ -563,6 +563,8 @@ function cont_fb_intro() {
     
     },window.settings.tasklength); // timing for task
 	  
+  }
+	
      function survey_par() {
       $('#par_survey').show();
 	  $('#survey-continue').on('click', function() {
