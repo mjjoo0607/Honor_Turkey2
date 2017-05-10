@@ -590,7 +590,8 @@ function cont_fb_intro() {
 	    //alert($(".partner:checked").val());
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
   
-  }
+  });
+     }
 
   }
 	
