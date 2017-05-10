@@ -556,7 +556,7 @@ function cont_fb_intro() {
     $('#timer').text('00:00');
     
      $('#final-continue').on('click', function() {
-	  $('#fb_login').hide();
+	  $('#task').hide();
 		survey_par();	
      });
 	      
