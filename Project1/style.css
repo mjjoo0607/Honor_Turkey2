@@ -1,5 +1,6 @@
 body { 
-  padding-top: 30px;  
+/*   padding-top: 30px;   */
+  padding-top: 15px;  
 }
 
 .container {
@@ -422,10 +423,11 @@ display: inline-block;
 /* 5/8/2017 */
 .controls label {
     display: inline-block;
-    width: 90px;
+/*     width: 90px; */
+    width: 70px; 
     height: 20px;
-/*     text-align: center; */
-    text-align: left;
+    text-align: center;
+/*     text-align: left; */
     vertical-align: top;
     padding-top: 40px;
     font-size: 90%;
