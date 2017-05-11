@@ -434,7 +434,8 @@ display: inline-block;
 }
 .controls input {
     display: block;
-    margin: 0 auto -40px;
+/*     margin: 0 auto -40px; */
+    margin: 0 auto 10px;
 }
 /* 5/8/2017 */
 
