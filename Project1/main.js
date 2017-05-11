@@ -587,7 +587,7 @@ function cont_fb_intro() {
 	    window.s35=$("input[name='s35']:checked", '#response555').val();
 	    window.s36=$("input[name='s36']:checked", '#response666').val();
             $('#par_survey').hide();
-	    
+	    init_activity();
 // 		 location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func;   
 	    //alert($(".partner:checked").val());
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
