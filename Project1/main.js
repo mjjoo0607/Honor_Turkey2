@@ -608,12 +608,13 @@ function cont_fb_intro() {
     function init_choose() {
 	window.onbeforeunload = null; 
         $('#mcat').show();
-	 
-    	var tpl = $('#partnerstmp').html(), html = Mustache.to_html(tpl, partners);
+//--------- 5/11/2017 -------//
+    if( users == "partner_m" ) {
+    	var tpl = $('#partnerstmp_m').html(), html = Mustache.to_html(tpl, partners);
         $("#mcat").append(html);
 
         function reorder() {
-            var grp = $("#partners").children();
+            var grp = $("#partners_m").children();
             var cnt = grp.length;
 
             var temp, x;
@@ -626,6 +627,25 @@ function cont_fb_intro() {
             $(grp).remove();
             $("#partners").append($(grp));
         }
+    } else {
+           var tpl = $('#partnerstmp_f').html(), html = Mustache.to_html(tpl, partners);
+        $("#mcat").append(html);
+
+        function reorder() {
+            var grp = $("#partners_f").children();
+            var cnt = grp.length;
+
+            var temp, x;
+            for (var i = 0; i < cnt; i++) {
+                temp = grp[i];
+                x = Math.floor(Math.random() * cnt);
+                grp[i] = grp[x];
+                grp[x] = temp;
+            }
+            $(grp).remove();
+            $("#partners").append($(grp));
+    
+    }
         reorder();
 
         $('#mcat').masonry({
@@ -637,14 +657,22 @@ function cont_fb_intro() {
     }
 
 	function choosePartner() {
-
+	if ( users == "partner_m") {
 	//$(window).unbind('beforeunload');
 	$('#f-continue').on('click', function() {
-	    window.partner=$("input[name='partner']:checked", '#form').val();
+	    window.partner=$("input[name='partner']:checked", '#form_m').val();
 	    //alert($(".partner:checked").val());
 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
 	});
+	} else { 
+	$('#f-continue').on('click', function() {
+	    window.partner=$("input[name='partner']:checked", '#form_f').val();
+	    //alert($(".partner:checked").val());
+		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
+// 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
+	});
+	}
 	}
     function init_thankyou() {
         $('#thanks').show();
