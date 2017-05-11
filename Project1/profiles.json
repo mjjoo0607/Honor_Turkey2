@@ -62,10 +62,10 @@ window.others = {
     
     ],
 	
-	"partner": [
+	"partner_m": [
     {
-      "avatar": "avatars/partners/pat.png",
-      "username": "Jason",
+      "avatar": "avatars/others/pat.png",
+      "username": "Pat",
       "major": "Computer Engineering",
       "interest1": "Logical",
       "interest2": "I like puzzles",
@@ -73,8 +73,8 @@ window.others = {
       "interest4": "Energetic"
     },
     {
-      "avatar": "avatars/partners/sarah.png",
-      "username": "Chris",
+      "avatar": "avatars/others/niki.png",
+      "username": "KY",
       "major": "I major in Sociology",
       "interest1": "Helpful",
       "interest2": "Polite",
@@ -82,8 +82,39 @@ window.others = {
       "interest4": "Confident"
     },
     {
-      "avatar": "avatars/partners/niki.png",
-      "username": "KY",
+      "avatar": "avatars/others/george.png",
+      "username": "Chris",
+      "major": "Major in communications",
+      "interest1": "Compassionate",
+      "interest2": "Laid-back",
+      "interest3": "I like hiking and camping",
+      "interest4": "Patient"
+    },
+
+  ],
+	
+	"partner_f": [
+    {
+      "avatar": "avatars/others/jane.png",
+      "username": "Chris",
+      "major": "Computer Engineering",
+      "interest1": "Logical",
+      "interest2": "I like puzzles",
+      "interest3": "Quick thinker",
+      "interest4": "Energetic"
+    },
+    {
+      "avatar": "avatars/others/lauren.png",
+      "username": "Pat",
+      "major": "I major in Sociology",
+      "interest1": "Helpful",
+      "interest2": "Polite",
+      "interest3": "Organized",
+      "interest4": "Confident"
+    },
+    {
+      "avatar": "avatars/others/anca.png",
+      "username": "Sam",
       "major": "Major in communications",
       "interest1": "Compassionate",
       "interest2": "Laid-back",
