@@ -639,7 +639,7 @@ function cont_fb_intro() {
 	function choosePartner() {
 
 	//$(window).unbind('beforeunload');
-	$('#final-continue').on('click', function() {
+	$('#f-continue').on('click', function() {
 	    window.partner=$("input[name='partner']:checked", '#form').val();
 	    //alert($(".partner:checked").val());
 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
