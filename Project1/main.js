@@ -644,7 +644,7 @@ function cont_fb_intro() {
             }
             $(grp).remove();
             $("#partners").append($(grp));
-    
+	}
     }
         reorder();
 
