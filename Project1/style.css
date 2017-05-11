@@ -432,12 +432,12 @@ display: inline-block;
 /*     text-align: left; */
     vertical-align: top;
     padding-top: 40px;
-    font-size: 80%;
+    font-size: 90%;
 }
 .controls input {
     display: block;
 /*     margin: 0 auto -40px; */
-    margin: 0 auto 10px;
+    margin: auto;
 }
 /* 5/8/2017 */
 
