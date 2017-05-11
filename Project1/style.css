@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-	width: 800px;
+/* 	width: 800px; */
+	width: 1000px;
 } 
 
 .tophalf {
@@ -424,13 +425,14 @@ display: inline-block;
 .controls label {
     display: inline-block;
 /*     width: 90px; */
-    width: 70px; 
-    height: 20px;
+    width: 80px; 
+/*     height: 20px; */
+    height: 10px;
     text-align: center;
 /*     text-align: left; */
     vertical-align: top;
     padding-top: 40px;
-    font-size: 90%;
+    font-size: 80%;
 }
 .controls input {
     display: block;
