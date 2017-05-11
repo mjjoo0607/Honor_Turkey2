@@ -23,9 +23,9 @@ $(function() {
 	// If the study is called with a parameter for redirection, as explained in the documentation, this value is overwritten. 
 	// To the redirect link, the following information will be appended: (1) participant number, (2) condition, (3) username, (4) description submitted by participant. These variables can be extracted from the link, saved as data, and used for linking the Social Media Ostracism paradigm to subsequent tasks and measures. See documentation for more details.
 
-    settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_78y5vvwkxJZrLtH';
+//     settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_78y5vvwkxJZrLtH';
 	 // settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_0rFAtUZh2zg7oA5';
-
+	    settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb';
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
@@ -588,7 +588,7 @@ function cont_fb_intro() {
 	    window.s36=$("input[name='s36']:checked", '#response666').val();
             $('#par_survey').hide();
 	    
-		 location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func;   
+// 		 location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func;   
 	    //alert($(".partner:checked").val());
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
   
@@ -596,33 +596,71 @@ function cont_fb_intro() {
 //      }
 
   }
-	
-//   function survey_par() {
-//       $('#par_survey').show();
-// 	  $('#survey-continue').on('click', function() {
-// 	    window.s11=$("input[name='s11']:checked", '#response1').val();
-//             window.s12=$("input[name='s12']:checked", '#response2').val();
-//             window.s13=$("input[name='s13']:checked", '#response3').val();
-// 	    window.s14=$("input[name='s14']:checked", '#response4').val();
-// 	    window.s15=$("input[name='s15']:checked", '#response5').val();
-// 	    window.s16=$("input[name='s16']:checked", '#response6').val();
-// 	    window.s21=$("input[name='s21']:checked", '#response11').val();
-// 	    window.s22=$("input[name='s22']:checked", '#response22').val();
-// 	    window.s23=$("input[name='s23']:checked", '#response33').val();
-// 	    window.s24=$("input[name='s24']:checked", '#response44').val();
-// 	    window.s25=$("input[name='s25']:checked", '#response55').val();
-// 	    window.s26=$("input[name='s26']:checked", '#response66').val();
-// 	    window.s31=$("input[name='s21']:checked", '#response111').val();
-// 	    window.s32=$("input[name='s32']:checked", '#response222').val();
-// 	    window.s33=$("input[name='s33']:checked", '#response333').val();
-// 	    window.s34=$("input[name='s34']:checked", '#response444').val();
-// 	    window.s35=$("input[name='s35']:checked", '#response555').val();
-// 	    window.s36=$("input[name='s36']:checked", '#response666').val();
-//             $('#par_survey').hide();
-// 	    //alert($(".partner:checked").val());
-// // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
-  
-//   }
+// --------------	Program 2 - 5/11/2017   -------------     //
+	function init_activity() {
+        $('#intro2').show();
+        $('#submit_intro2').on('click', function () {
+   		$('#intro2').hide();
+            init_choose();
+        });
+    }
+
+    function init_choose() {
+	window.onbeforeunload = null; 
+        $('#mcat').show();
+	 
+    	var tpl = $('#partnerstmp').html(), html = Mustache.to_html(tpl, partners);
+        $("#mcat").append(html);
+
+        function reorder() {
+            var grp = $("#partners").children();
+            var cnt = grp.length;
+
+            var temp, x;
+            for (var i = 0; i < cnt; i++) {
+                temp = grp[i];
+                x = Math.floor(Math.random() * cnt);
+                grp[i] = grp[x];
+                grp[x] = temp;
+            }
+            $(grp).remove();
+            $("#partners").append($(grp));
+        }
+        reorder();
+
+        $('#mcat').masonry({
+            itemSelector: '.entry',
+            columnWidth: 10
+        });
+	    choosePartner();
+	    ('#mcat').hide();
+    }
+
+	function choosePartner() {
+
+	//$(window).unbind('beforeunload');
+	$('#final-continue').on('click', function() {
+	    window.partner=$("input[name='partner']:checked", '#form').val();
+	    //alert($(".partner:checked").val());
+		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
+// 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
+	});
+	}
+    function init_thankyou() {
+        $('#thanks').show();
+        $('#next_page').on('click', function () {
+            $('#thanks').hide();
+            init_final();
+        });
+    }
+
+    function init_final() {
+        $('#final').show();
+	    //Apurva
+	//choosePartner(); 
+    }
+	// --------------	Program 2 - 5/11/2017   -------------     //
+
 // // --------------- 5/10/2017 ---------------- //
 
   // Get URL parameters to set condition number and participant number
