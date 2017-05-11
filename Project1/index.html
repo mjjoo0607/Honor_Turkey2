@@ -1034,7 +1034,86 @@ If you don't have experience with programming, it is important that you alter on
                <br>
                <br>
         &emsp;<input type="button" id='survey-continue' value="Continue"/>
+                   <!-- -------------------5/8/17----------- --> 
+          <!-- -------------------5/11/17----------- --> 
+        <div id="intro2" style="display:none;" class="instr">
+            <!--
+            /*
+            **Intro**
+            ---------
+            You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
+            */ -->
+            
+            <h3>What next?</h3>
+            <br>
+            Now, you will team up with one of the people you have been interacting with,<br>
+            and will be solving a set of challenging logical problems as a team. You will<br>
+            be randomly assigned to one of the following tasks:
+            <br>
+            <ul>
+                <li>spatial reasoning task,</li>
+                <li>visual/perceptual task,</li>
+                <li>logical reasoning task,</li>
+                <li>mathematical problems task.</li>
+            </ul><br>
+            This problem solving activity is expected to foster engagement, improve communication <br>
+            and encourage cooperation between teammates.
+            <br><br>
+            Some of you will be able to choose one person out of the three people as your teammate.<br>
+            Some of you will be randomly assigned a teammate to work with.
+            <br><br>
+<!--             The top two teams that complete the most problems will each win <br>
+            <b>$30 Amazon  gift certificates</b>. -->
+           <h4><b>The top two teams that complete the most problems will each win <br>
+             $30 Amazon  gift certificates.</b></h4>
+            <br><br>
+            <button type="submit" id="submit_intro2">Continue</button> 
+        </div>
+        <div id="mcat" style="display:none;">
+            <h3>Choosing your partner </h3>
+            <p>
+              You are randomly assigned to work on the <b>mathematical problems</b> with your partner.<h4><b> The mathematical problems are
+                pulled from the MCAT (Medical College Admission Test) math test pool.</b></h4>
+                You are assigned to the condition in which you can choose a partner to solve the math problems with.<br>
+                Please click on the name of your preferred partner.<br>                 
+            </p>
+            <script type="template/text" id="partnerstmp"> 
+                {{#partner}}   
+               <div class="prob">
+                    <div class="tophalf">
+                        <img src="{{avatar}}" class="avatar">  
+                        <h3>{{username}}</h3>
+                        <div class="main">
+                            <p>{{major}}<br>
+                              {{interest1}}<br>
+                              {{interest2}}<br>
+                              {{interest3}}<br>
+                              {{interest4}}</p>
+                        </div>
+                        <br style="clear:both;">
+                    </div>
+                </div>
+                {{/partner}}
+                <br>
+                <br>           
+           </script>
+<!--             <form id='form'> -->
+          <form class ='form' id='form'>
+            <!--<fieldset>-->
+              &emsp;&emsp;
+              <label>
+              <input type='radio' name='partner' class='partner' value="Jason" /> &emsp;&emsp; Jason </label>&emsp;&emsp;<!--&emsp; John &emsp;    -->            
+              <label>
+              <input type='radio' name='partner' class='partner' value="Chris"/> &emsp; &emsp; Chris</label>&emsp;&emsp; <!--&emsp; Sarah &emsp;-->
+               <label>
+              <input type='radio' name='partner' class='partner' value="Ky" /> &emsp; &emsp; Ky</label> <!--&emsp; Nick &emsp;-->
+         
+             <!--</fieldset>-->
+          </form>
+               <!--&emsp;<input type="button" id='final-continue' value="Continue" onclick="window.location.href='https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb'"></input>-->
+          &emsp;<input type="button" id='final-continue' value="Continue"/>
               </div> 
+                <!-- -------------------5/11/17----------- --> 
       </div>
   
           <!-- -------------------5/8/17----------- --> 
