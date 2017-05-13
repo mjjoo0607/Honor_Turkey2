@@ -1082,17 +1082,17 @@ If you don't have experience with programming, it is important that you alter on
                 Please click on the name of your preferred partner.<br><p>
                   <br>
                   <br>
-            <div id="form" class="controls">
+            <div id="ptnr" class="controls">
                 <label class="radio">
-                    <input type="radio" name="partner" value="Pat">
+                    <input type="radio" name="partner" id="p1" value="Pat">
                     Pat
                 </label>
                 <label class="radio">
-                     <input type="radio" name="partner" value="Chris">
+                    <input type="radio" name="partner" id="p2" value="Chris">
                     Chris
                 </label>
                 <label class="radio">
-                    <input type="radio" name="partner" value="Sam">
+                    <input type="radio" name="partner" id="p3"value="Sam">
                     Sam
                 </label>
          </div>
@@ -1100,11 +1100,12 @@ If you don't have experience with programming, it is important that you alter on
           <br>
              &emsp;<input type="button" id='f-continue' value="Continue"/>
             </div>
-  
-    
+          <br>
+          <br>
             <script type="template/text" id="partnerstmp_m"> 
                 {{#partner_m}}   
-               <div class="prob">
+           <!--    <div class="prob"> -->
+                  <div class="entry">
                     <div class="tophalf">
                         <img src="{{avatar}}" class="avatar">  
                         <h3>{{username}}</h3>
