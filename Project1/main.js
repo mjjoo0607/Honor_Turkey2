@@ -609,7 +609,6 @@ function cont_fb_intro() {
 	window.onbeforeunload = null; 
         $('#mcat').show();
 //--------- 5/11/2017 -------//
-    if( users == "partner_m" ) {
     	if( window.G == "Male" ) {
       users = {
 	    "partner_m": [
@@ -687,7 +686,7 @@ function cont_fb_intro() {
 // 	});
 // 	} else { 
 	$('#f-continue').on('click', function() {
-	    window.partner=$("input[name='partner']:checked", '#form_f').val();
+	    window.partner=$("input[name='partner']:checked", '#form').val();
 	    //alert($(".partner:checked").val());
 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
