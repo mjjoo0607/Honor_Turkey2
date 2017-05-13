@@ -626,8 +626,7 @@ function cont_fb_intro() {
 	   	    
     	var tpl = $('#partnerstmp_m').html(), html = Mustache.to_html(tpl, partners);
         $("#mcat").append(html);
-        }
-    } else {
+        } else {
 	    
 	    users = {
 	    "partner_f": [
@@ -645,8 +644,8 @@ function cont_fb_intro() {
 	    
            var tpl = $('#partnerstmp_f').html(), html = Mustache.to_html(tpl, partners);
         $("#mcat").append(html);
-
-
+		
+    }
     }
 	
 	 function reorder() {
