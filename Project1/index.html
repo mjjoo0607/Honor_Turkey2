@@ -1080,9 +1080,9 @@ If you don't have experience with programming, it is important that you alter on
                 pulled from the MCAT (Medical College Admission Test) math test pool.</b></h4>
                 You are assigned to the condition in which you can choose a partner to solve the math problems with.<br>
                 Please click on the name of your preferred partner.<br>                 
-            </p>
-            <script type="template/text" id="partnerstmp"> 
-                {{#partner}}   
+            <p>
+            <script type="template/text" id="partnerstmp_m"> 
+                {{#partner_m}}   
                <div class="prob">
                     <div class="tophalf">
                         <img src="{{avatar}}" class="avatar">  
@@ -1097,7 +1097,28 @@ If you don't have experience with programming, it is important that you alter on
                         <br style="clear:both;">
                     </div>
                 </div>
-                {{/partner}}
+                {{/partner_m}}
+                <br>
+                <br>           
+           </script>
+      
+       <script type="template/text" id="partnerstmp_f"> 
+                {{#partner_f}}   
+               <div class="prob">
+                    <div class="tophalf">
+                        <img src="{{avatar}}" class="avatar">  
+                        <h3>{{username}}</h3>
+                        <div class="main">
+                            <p>{{major}}<br>
+                              {{interest1}}<br>
+                              {{interest2}}<br>
+                              {{interest3}}<br>
+                              {{interest4}}</p>
+                        </div>
+                        <br style="clear:both;">
+                    </div>
+                </div>
+                {{/partner_f}}
                 <br>
                 <br>           
            </script>
@@ -1118,7 +1139,7 @@ If you don't have experience with programming, it is important that you alter on
           &emsp;<input type="button" id='final-continue' value="Continue"/>
             </div>
 <!--   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     -->
-      <div id="mcat" style="display:none;" class="instr">
+<!--       <div id="mcat" style="display:none;" class="instr">
             <h3>Choosing your partner </h3>
             <p>
               You are randomly assigned to work on the <b>mathematical problems</b> with your partner.<h4><b> The mathematical problems are
@@ -1145,12 +1166,12 @@ If you don't have experience with programming, it is important that you alter on
           <br>
              &emsp;<input type="button" id='f-continue' value="Continue"/>
 <!--             </div> -->
-          <br>
+<!--           <br>
           <br>
             <script type="template/text" id="partnerstmp_m"> 
                 {{#partner_m}}   
            <!--    <div class="prob"> -->
-                  <div class="entry">
+<!--                   <div class="entry">
                     <div class="tophalf">
                         <img src="{{avatar}}" class="avatar">  
                         <h3>{{username}}</h3>
@@ -1191,7 +1212,7 @@ If you don't have experience with programming, it is important that you alter on
            </script>
                 <br>
                 <br>
-                    </div>
+                    </div> -->
 
 <!--             <form id='form'> -->
 
