@@ -60,6 +60,12 @@ body {
 	float: left;
 	margin: 10px;
 }
+
+.entry1 {   /* ---5/12/2017--- */
+	width: 210px;
+	float: left;
+	margin: 10px;
+}
 /*Apurva*/
 .prob{
 	width: 220px;
@@ -75,7 +81,7 @@ div.main {
   width: 210px !important;
   margin-left: -16px;
   margin-top: 3px;
-	margin-bottom: -10px !important;
+  margin-bottom: -10px !important;
 }
 
 img.avatar {
@@ -102,8 +108,8 @@ img.avatar {
 .tophalf h3 {
 	color: #3B5999;
   font-variant: normal;
-	font-size: 20px;
-	text-transform:capitalize;
+  font-size: 20px;
+  text-transform:capitalize;
   margin-left: 85px;
   padding-left: 0px;
   margin-top: 35px;
@@ -118,8 +124,8 @@ div.masonry {
 .bottomhalf {
 	clear: both;
 	color: #3B5999;
-  height: 20px;
-  background-color: #f5f6fa;
+  	height: 20px;
+  	background-color: #f5f6fa;
 	border: 1px solid #d5d7e0;	
 	padding: 5px;
 	padding-bottom: 8px !important;
@@ -163,7 +169,7 @@ div.masonry {
 
 .btn-like {
     padding: 0;
-	margin-top: -2px;
+    margin-top: -2px;
     /*Apurva*/
     /*margin-bottom: 2px;*/
     /*Apurva*/
@@ -185,14 +191,14 @@ c {
 
 button.btn.btn-primary {
     padding: 3px;
-	color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 .badge-custom {
     background-color: #5c6069;
     color: #ffd75e;
     font-weight: bold;
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 17px;
     padding-top: 4px;
 }
@@ -441,5 +447,32 @@ display: inline-block;
 }
 /* 5/8/2017 */
 
+/* 5/12/2017 */
+
+fieldset {
+  overflow: hidden
+}
+
+.choose {
+   float: left;
+   clear: none;
+ } 
+ 
+  label {
+   float: left;
+   clear: none;
+   display: block;
+   padding: 5px 1em 0 0;
+ } 
+ 
+  input[type=radio],
+ input.radio {
+   float: left;
+   clear: none;
+/*    margin: 2px 0 0 12px; */
+   margin: 2px 0 0 32px;
+}
+
+/* 5/12/2017 */
 
 /* Apurva */
