@@ -610,29 +610,48 @@ function cont_fb_intro() {
         $('#mcat').show();
 //--------- 5/11/2017 -------//
     if( users == "partner_m" ) {
+    	if( window.G == "Male" ) {
+      users = {
+	    "partner_m": [
+              {
+                  "avatar": 'avatars/' + window.avatar + '.png',
+                  "username": window.username,
+                  "major": window.major,
+                  "interest1": window.interest1,
+                  "interest2": window.interest2,
+                  "interest3": window.interest3,
+                  "interest4": window.interest4,
+              }
+            ]
+        };
+	   	    
     	var tpl = $('#partnerstmp_m').html(), html = Mustache.to_html(tpl, partners);
         $("#mcat").append(html);
-
-        function reorder() {
-            var grp = $("#partners_m").children();
-            var cnt = grp.length;
-
-            var temp, x;
-            for (var i = 0; i < cnt; i++) {
-                temp = grp[i];
-                x = Math.floor(Math.random() * cnt);
-                grp[i] = grp[x];
-                grp[x] = temp;
-            }
-            $(grp).remove();
-            $("#partners").append($(grp));
         }
     } else {
+	    
+	    users = {
+	    "partner_f": [
+              {
+                  "avatar": 'avatars/' + window.avatar + '.png',
+                  "username": window.username,
+                  "major": window.major,
+                  "interest1": window.interest1,
+                  "interest2": window.interest2,
+                  "interest3": window.interest3,
+                  "interest4": window.interest4,
+              }
+            ]
+        };
+	    
            var tpl = $('#partnerstmp_f').html(), html = Mustache.to_html(tpl, partners);
         $("#mcat").append(html);
 
-        function reorder() {
-            var grp = $("#partners_f").children();
+
+    }
+	
+	 function reorder() {
+            var grp = $("#partners").children();
             var cnt = grp.length;
 
             var temp, x;
@@ -645,8 +664,9 @@ function cont_fb_intro() {
             $(grp).remove();
             $("#partners").append($(grp));
 	}
-    }
+	
         reorder();
+
 
         $('#mcat').masonry({
             itemSelector: '.entry',
@@ -657,22 +677,22 @@ function cont_fb_intro() {
     }
 
 	function choosePartner() {
-	if ( users == "partner_m") {
-	//$(window).unbind('beforeunload');
-	$('#f-continue').on('click', function() {
-	    window.partner=$("input[name='partner']:checked", '#form_m').val();
-	    //alert($(".partner:checked").val());
-		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
-// 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
-	});
-	} else { 
+// 	if ( window.G == "") {
+// 	//$(window).unbind('beforeunload');
+// 	$('#f-continue').on('click', function() {
+// 	    window.partner=$("input[name='partner']:checked", '#form_m').val();
+// 	    //alert($(".partner:checked").val());
+// 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
+// // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
+// 	});
+// 	} else { 
 	$('#f-continue').on('click', function() {
 	    window.partner=$("input[name='partner']:checked", '#form_f').val();
 	    //alert($(".partner:checked").val());
 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+window.redirect+'&p='+window.participant+'&par='+window.partner;  
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
 	});
-	}
+// 	}
 	}
     function init_thankyou() {
         $('#thanks').show();
