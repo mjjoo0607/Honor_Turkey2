@@ -42,13 +42,13 @@ window.others = {
       
       {
         "avatar": "avatars/others/anca.png",
-        "username": "Sam",
+        "username": "KY",
         "text": "I got a very high GPA this semester. I was never someone whose grades were outstanding, and that really showed my first two years at university. I had some trouble adjusting to the responsibility of college and my grades suffered for it. Last semester was my first time that I truly enjoyed all of my classes. This gave me the drive to work exceptionally hard on my classes, and led to the best GPA I’d ever received at any level of my education. The second achievement that crosses my mind is about the award I received in high school. In high school, I was really active in my choir program. I entered a singing competition with a friend to perform a duet. We practiced almost everyday to prepare for the performance. I was really nervous to sing in front of a judge because I knew how much work we had both put into our performance and musicianship. When our scores were released, it was also released that my partner and I received “Best of Center”, meaning we were the best that that judge had heard all day. I was so proud of myself and of my partner.",
         "likes": [10000, 80000, 120000] //3
       },
       {
         "avatar": "avatars/others/niki.png",
-        "username": "KY",
+        "username": "Sam",
         "text": "One of the things that may make me stand out is that I will finally be traveling abroad next semester for the first time in my life. It took months of planning and a lot of stress. This is a very proud and exciting moment for me because I have always dreamed of studying in another country. I will be traveling to Netherlands and learning the language while attending classes for my studies as well. I am also very proud of the fact that I am good at maintaining balance in my life compared to my friends. Being balanced and having a balanced life is one of the hardest things to pull off, especially when it feels like there are tasks, commitments, and opportunities that are always being thrown at you to manage. While attaining balance is a never-ending struggle, I feel as though I have done a good job with having a strong sense of self-discipline and time management to be able to do what I have to do. While that sometimes comes at a cost of less sleep or a missed social opportunity, I am proud to say that I am able to do what needs to be done.",
 		"likes": [20000, 21000] //2
       },
@@ -74,7 +74,7 @@ window.others = {
     },
     {
       "avatar": "avatars/others/niki.png",
-      "username": "KY",
+      "username": "Sam",
       "major": "I major in Sociology",
       "interest1": "Helpful",
       "interest2": "Polite",
