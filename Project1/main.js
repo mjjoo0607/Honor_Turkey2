@@ -646,7 +646,7 @@ function cont_fb_intro() {
         $("#mcat").append(html);
 		
     }
-    }
+//     }
 	
 	 function reorder() {
             var grp = $("#partners").children();
