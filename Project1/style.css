@@ -449,7 +449,13 @@ display: inline-block;
 
 /* 5/12/2017 */
 
-fieldset {
+.prob{
+	width: 220px;
+	float: left;
+    /*margin-top: 10px;*/
+}
+
+/* fieldset {
   overflow: hidden
 }
 
@@ -470,8 +476,8 @@ fieldset {
    float: left;
    clear: none;
 /*    margin: 2px 0 0 12px; */
-   margin: 2px 0 0 32px;
-}
+/*    margin: 2px 0 0 32px;
+} */ 
 
 /* 5/12/2017 */
 
