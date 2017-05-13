@@ -31,6 +31,14 @@ body {
 	clear:both;
 }
 
+.tophalf .main {
+	float: left;
+	width: 120px;
+	font-size: 9pt;
+	text-align: left;
+	padding-left: 15px; /* text to avatar distance */
+}
+
 /* #bottomcomment {
 	visibility:hidden;
 	background-image: url("call0.png");
@@ -67,11 +75,6 @@ body {
 	margin: 10px;
 }
 /*Apurva*/
-.prob{
-	width: 220px;
-	float: left;
-    /*margin-top: 10px;*/
-}
 
 /*.radio{
   margin-top: 250px;
