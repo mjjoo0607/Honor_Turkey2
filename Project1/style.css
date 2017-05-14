@@ -458,7 +458,7 @@ display: inline-block;
     /*margin-top: 10px;*/
 }
 
-/* fieldset {
+fieldset {
   overflow: hidden
 }
 
@@ -467,7 +467,7 @@ display: inline-block;
    clear: none;
  } 
  
-  label {
+.label1 {
    float: left;
    clear: none;
    display: block;
@@ -479,8 +479,8 @@ display: inline-block;
    float: left;
    clear: none;
 /*    margin: 2px 0 0 12px; */
-/*    margin: 2px 0 0 32px;
-} */ 
+   margin: 2px 0 0 32px;
+} 
 
 /* 5/12/2017 */
 
