@@ -61,8 +61,11 @@ window.others = {
       
     
     ],
+};
+
+window.partners = {
 	
-	"partner_m": [
+	"partner1": [
     {
       "avatar": "avatars/others/pat.png",
       "username": "Pat",
@@ -93,7 +96,7 @@ window.others = {
 
   ],
 	
-	"partner_f": [
+	"partner2": [
     {
       "avatar": "avatars/others/jane.png",
       "username": "Chris",
