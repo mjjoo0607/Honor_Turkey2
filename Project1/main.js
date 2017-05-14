@@ -611,7 +611,7 @@ function cont_fb_intro() {
 //--------- 5/11/2017 -------//
     	if( window.G == "Male" ) {
       users = {
-	    "partner_m": [
+	    "partner1": [
               {
                   "avatar": 'avatars/' + window.avatar + '.png',
                   "username": window.username,
@@ -629,7 +629,7 @@ function cont_fb_intro() {
         } else {
 	    
 	    users = {
-	    "partner_f": [
+	    "partner2": [
               {
                   "avatar": 'avatars/' + window.avatar + '.png',
                   "username": window.username,
