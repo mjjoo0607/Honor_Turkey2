@@ -458,7 +458,7 @@ display: inline-block;
     /*margin-top: 10px;*/
 }
 
-fieldset {
+/* fieldset {
   overflow: hidden
 }
 
@@ -472,15 +472,15 @@ fieldset {
    clear: none;
    display: block;
    padding: 5px 1em 0 0;
- } 
+ }  */
  
-  input[type=radio],
+/*   input[type=radio],
  input.radio {
    float: left;
    clear: none;
 /*    margin: 2px 0 0 12px; */
-   margin: 2px 0 0 32px;
-} 
+/*   margin: 2px 0 0 32px; 
+}  */
 
 /* 5/12/2017 */
 
