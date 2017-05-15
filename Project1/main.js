@@ -689,7 +689,10 @@ function cont_fb_intro() {
 	    //alert($(".partner:checked").val());
 		//alert(window.s25);
 		//alert(window.redirect+' '+window.participant+' '+window.condition+' '+encodeURI(window.username)+' '+window.avatarexport+' '+encodeURI(window.description)+' '+encodeURI(window.stmajor)+' '+encodeURI(window.attribute1)+' '+encodeURI(window.attribute2)+' '+encodeURI(window.attribute3)+' '+encodeURI(window.attribute4)+' '+func+'&g='+encodeURI(window.G)+' '+window.s11+' '+window.s12+' '+window.s13+' '+window.s14+' '+window.s15+' '+window.s16+' '+window.s21+' '+window.s22+' '+window.s23+' '+window.s24+' '+window.s25+' '+window.s26+' '+window.s31+' '+window.s32+' '+window.s33+' '+window.s34+' '+window.s35+' '+window.s36+' '+window.partner);
-		alert(window.partner);
+		alert(func);
+		alert(window.condition);
+		alert(window.username);
+		alert(window.G);
 		location.href = window.redirect+'&p='+window.participant+'&c='+window.condition+'&u='+encodeURI(window.username)+'&av='+window.avatarexport+'&d='+encodeURI(window.description)+'&mj='+encodeURI(window.stmajor)+'&a1='+encodeURI(window.attribute1)+'&a2='+encodeURI(window.attribute2)+'&a3='+encodeURI(window.attribute3)+'&a4='+encodeURI(window.attribute4)+'&rd='+func+'&g='+encodeURI(window.G)+'&s11='+window.s11+'&s12='+window.s12+'&s13='+window.s13+'&s14='+window.s14+'&s15='+window.s15+'&s16='+window.s16+'&s21='+window.s21+'&s22='+window.s22+'&s23='+window.s23+'&s24='+window.s24+'&s25='+window.s25+'&s26='+window.s26+'&s31='+window.s31+'&s32='+window.s32+'&s33='+window.s33+'&s34='+window.s34+'&s35='+window.s35+'&s36='+window.s36+'&par='+window.partner;  
 		
 // 		location.href = window.redirect+'&p='+window.participant+'&par='+window.partner;
