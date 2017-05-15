@@ -689,7 +689,7 @@ function cont_fb_intro() {
 	    //alert($(".partner:checked").val());
 		//alert(window.s25);
 		//alert(window.redirect+' '+window.participant+' '+window.condition+' '+encodeURI(window.username)+' '+window.avatarexport+' '+encodeURI(window.description)+' '+encodeURI(window.stmajor)+' '+encodeURI(window.attribute1)+' '+encodeURI(window.attribute2)+' '+encodeURI(window.attribute3)+' '+encodeURI(window.attribute4)+' '+func+'&g='+encodeURI(window.G)+' '+window.s11+' '+window.s12+' '+window.s13+' '+window.s14+' '+window.s15+' '+window.s16+' '+window.s21+' '+window.s22+' '+window.s23+' '+window.s24+' '+window.s25+' '+window.s26+' '+window.s31+' '+window.s32+' '+window.s33+' '+window.s34+' '+window.s35+' '+window.s36+' '+window.partner);
-		alert(func);
+		//alert(func);
 		alert(window.condition);
 		alert(window.username);
 		alert(window.G);
