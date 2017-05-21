@@ -47,7 +47,7 @@ window.others = {
         "likes": [10000, 80000, 120000] //3
       },
       {
-        "avatar": "avatars/others/niki.png",
+        "avatar": "avatars/others/avatar_21.png",
         "username": "Sam",
         "text": "I got a very high GPA this semester. I had some trouble adjusting to the responsibility of college and my grades suffered for it. Last semester was my first time that I truly enjoyed all my classes. This gave me the drive to work exceptionally hard on my classes, and led to the best GPA I’d ever received at any level of my education. In high school, I was really active in my choir program. I entered a singing competition with a friend to perform a duet. We practiced almost everyday. I was really nervous to sing in front of a judge because I knew how much work we had both put into our performance and musicianship. Turns out my partner and I received “Best of Center”, meaning we were the best that judge had heard all day. I was so proud of myself and of my partner.",
 		"likes": [20000, 21000] //2
@@ -85,7 +85,7 @@ window.partners = {
       "interest4": "Energetic"
     },
     {
-      "avatar": "avatars/others/niki.png",
+      "avatar": "avatars/others/avatar_21.png",
       "username": "Sam",
       "major": "I major in Sociology",
       "interest1": "Helpful",
