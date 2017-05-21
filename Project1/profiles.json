@@ -98,8 +98,8 @@ window.partners = {
 	
 	"partner2": [
     {
-      "avatar": "avatars/others/jane.png",
-      "username": "Chris",
+      "avatar": "avatars/others/lauren.png",
+      "username": "Pat",
       "major": "Computer Engineering",
       "interest1": "Logical",
       "interest2": "I like puzzles",
@@ -107,8 +107,8 @@ window.partners = {
       "interest4": "Energetic"
     },
     {
-      "avatar": "avatars/others/lauren.png",
-      "username": "Pat",
+      "avatar": "avatars/others/jane.png",
+      "username": "Chris",
       "major": "I major in Sociology",
       "interest1": "Helpful",
       "interest2": "Polite",
