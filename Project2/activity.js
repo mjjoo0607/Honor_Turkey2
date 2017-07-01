@@ -5,7 +5,7 @@
 $(function () {
      function set_settings() {
 	window.settings = [];
- 	settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb';
+ 	settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_bl7dbR8Cxra8NU1';
      }
 	
     function init_activity() {
