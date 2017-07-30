@@ -6,27 +6,27 @@ window.others = {
 	"posts1" : [
      { 
       "avatar": "avatars/others/lauren.png",
-        "username": "Pat",
-        "text": "Lisedeyken hep iyi notlar alirdım. Üniversiteye gelince farkettim ki, sadece iyi not almak için değil icerigi gerçekten anlamak için lisede sarfettigim cabanin iki katını sarfetmem gerekiyor. Su ana kadar üniversitedeki derslerden çoğunlukla A aldım. Beni cok ugrastiran ve kendimi zorlamami gerektiren bir kac ders oldu ama basarili oldugum icin gururluyum. Beni öne çıkaran başka bir başarı ise, çok yakın zamanda istatistiki veri analizi yapan bir şirkette bir staj olanağı bulmam. Bu staj cok zamanimi aldi ama cabalarimin somut karsiligini gormek bana cesaret verdi. Umarim bu staj universiteyi bitirip yuksek lisansa basvururken bana yardimci olur. ",
+        "username": "Deniz",
+        "text": "Lisedeyken hep iyi notlar alırdım. Üniversiteye gelince farkettim ki, sadece iyi not almak için değil içerigi gerçekten anlamak için lisede sarfettiğim çabanın iki katını sarfetmem gerekiyor. Şu ana kadar üniversitedeki derslerden çoğunlukla A aldım. Beni çok uğraştıran ve kendimi zorlamamı gerektiren bir kaç ders oldu ama başarılı olduğum için gururluyum. Beni öne çıkaran başka bir başarı ise, çok yakın zamanda istatistiksel veri analizi yapan bir şirkette bir staj olanağı bulmam. Bu staj çok zamanımı aldı ama çabalarımının karşılığını almak beni çok mutlu etti.  Umarım bu staj üniversiteyi bitirip yüksek lisansa başvururken bana yardımcı olur.",
         "likes": [12000, 80000] //3
       },      
       
       {
         "avatar": "avatars/others/anca.png",
-        "username": "Sam",
-        "text": "Gecen donem not ortalamam çok yüksekti. Ilk zamanlar universitedeki sorumluluklara adapte olmakta biraz zorluk yaşadım ve bunun notlarıma etkisi oldu. Ama gecen dönem, ilk defa bütün derslerden gerçekten keyif aldım. Bu his, çok çalışmam için beni motive etti ve şimdiye kadarki eğitim hayatim boyunca aldığım en iyi not ortalamasini almami sagladi. Lisedeyken, koroda bayağı aktiftim. Bir arkadaşımla birlikte bir şarkı yarışmasında duet yapmaya karar verdik. Yarisma icin neredeyse her gün prova yaptık. Bir jürinin karşısına çıkıp şarkı söylemek beni bayagi gerdi çünkü bu performans için ne kadar çok çalıştigimizin farkindaydim. Puanlar açıklandığında öğrendik ki, jürinin gün boyunca dinlediği duetlerin en iyisi bizimkiymis. Kendimle ve arkadasimla çok gurur duydum.",
+        "username": "Ekin",
+        "text": "Geçen dönem not ortalamam çok yüksekti. İlk zamanlar üniversitedeki sorumluluklara adapte olmakta biraz zorluk yaşadım ve bunun notlarıma etkisi oldu. Ama geçen dönem, ilk defa bütün derslerden gerçekten keyif aldım. Bu his çok çalışmam için beni motive etti ve şimdiye kadarki eğitim hayatım boyunca aldığım en iyi not ortalamasını almamı sağladı. Lisedeyken koroda bayağı aktiftim. Bir arkadaşımla birlikte bir şarkı yarışmasında düet yapmaya karar verdik. Yarışma için neredeyse her gün prova yaptık. Bir jürinin karşısına çıkıp şarkı söylemek beni bayağı gerdi çünkü bu performans için ne kadar çok çalıştığımızın farkındaydım. Puanlar açıklandığında öğrendik ki, jürinin gün boyunca dinlediği düetlerin en iyisi bizimkiymiş. Kendimle ve arkadaşımla çok gurur duydum.",
         "likes": [10000, 80000, 120000] //3
       },  
       {
         "avatar": "avatars/others/pat.png",
-        "username": "KY",
-        "text": "Beni arkadaslarim arasinda one çıkaracak şeylerden birisi, hayatimda ilk kez gelecek dönem yurtdışına çıkacak olmam. Bu seyahati planlamak aylarimi aldi ve oldukca stresli bir surecti. Bu benim için çok gurur ve heyecan verici bir an, çünkü hep başka bir ülkede okumayi hayal etmişimdir. Gelecek donem Hollanda'da bir universitede hem derslere girip hem de dil öğreneceğim. Ayrıca hayatımda denge kurmak konusunda arkadaşlarımdan daha iyi olduğum için kendimle gurur duyuyorum. Dengeli olmak ve dengeli bir yaşam surdurmek hayatta basarmasi en zor şeylerden biri. Insanin onune her gun yeni görevler, sorumluluklar ve fırsatlar cikiyor. Öz disiplinim ve zaman yönetme becerim sayesinde dengeli yasam konusunda iyi bir iş çıkardigimi dusunuyorum.",
+        "username": "Ümit",
+        "text": "Beni arkadaşlarım arasında öne çıkaracak şeylerden birisi, gelecek dönem hayatımda ilk kez yurtdışına çıkacak olmam. Bu seyahati planlamak aylarımı aldı ve oldukça stresli bir süreçti. Bu benim için çok gurur ve heyecan verici bir an, çünkü başka bir ülkede okumak hep hayalimdi. Gelecek dönem Hollanda'da bir üniversitede hem derslere girip hem de dil öğreneceğim.  Ayrıca hayatımda denge kurmak konusunda arkadaşlarımdan daha iyi olduğum için kendimle gurur duyuyorum. Dengeli olmak ve dengeli bir yaşam sürdürmek hayatta başarması en zor şeylerden biri. İnsanın önüne her gün yeni görevler, sorumluluklar ve fırsatlar çıkıyor. Disiplinli olma ve zaman yönetme becerim sayesinde dengeli yaşam konusunda iyi bir iş çıkardığımı düşünüyorum. ",
         "likes": [12000, 38000] //1
       },
       {
         "avatar": "avatars/others/jane.png",
-        "username": "Chris",
-        "text": "Gurur duyduğum başarılarimdan biri en iyi universitelerden birine girmis olmak. Universite sınavlarina çok sıkı hazirlandim. Elimden gelenin en iyisini yapmaya, profesyonel ve olgun davranmaya calistim. Üniversite hazirlik surecindeki tutumum konusunda kendimle gurur duyuyorum. O zamana geri dönüp bakınca başarıli olma kapasitesine sahip, bir hedef belirleyip ona ulasabilecek bir kişiye nasil donustugumu görüyorum. Ayrıca, üniversitedeyken zamanımı verimli kullandigim icin kendimle gurur duyuyorum. Üniversite hayatı her zaman kolay degildi, ama yine de kampusteki pek cok farklı kulübe ve aktiviteye katilmak icin elimden geleni yaptim. Bu aktiviteler sayesinde yeni insanlarla tanışma ve yeni deneyimler kazanma firsatim oldu. Bu yaz mezun olacağım ve yuksek lisansa başlayacağım için heyecanlıyım.",
+        "username": "Anıl",
+        "text": "Gurur duyduğum başarılarımdan biri hedeflediğim üniversitelerden en iyisine girmiş olmak. Üniversite sınavlarına çok sıkı hazırlandım. Elimden gelenin en iyisini yapmaya, profesyonel ve olgun davranmaya çalıştım. Üniversite hazırlık sürecindeki tutumum konusunda kendimle gurur duyuyorum. O zamana geri dönüp bakınca başarılı, kafasına koyduğunu yapabilen birine nasıl dönüştüğümü görüyorum. Ayrıca, üniversite yıllarımın hakkını verdiğim için kendimle gurur duyuyorum. Üniversite hayatı her zaman kolay değildi, ama yine de kampüsteki pek çok farklı kulübe ve etkinliğe katılmak için elimden geleni yaptım. Bunlar sayesinde yeni insanlarla tanışma ve yeni deneyimler kazanma fırsatım oldu. Bu yaz mezun olacağım ve yüksek lisansa başlayacağım için heyecanlıyım.",
 		"likes": [20000, 21000] //2
       },
     
@@ -68,17 +68,17 @@ window.partners = {
 	"partner1": [
      {
       "avatar": "avatars/others/pat.png",
-      "username": "Pat",
+      "username": "Deniz",
       "major": "Bilgisayar Mühendisliği",
       "interest1": "Mantıkli",
-      "interest2": "Yapboz severim",
+      "interest2": "Sudoku severim",
       "interest3": "Hızlı düşünürüm",
       "interest4": "Enerjik"
     },
      {
       "avatar": "avatars/others/george.png",
-      "username": "Chris",
-      "major": "Sosyoloji okuyorum",
+      "username": "Ekin",
+      "major": "Siyaset Bilimi okuyorum",
       "interest1": "Yardımsever",
       "interest2": "Kibar",
       "interest3": "Düzenli",
@@ -86,9 +86,9 @@ window.partners = {
     },
     {
       "avatar": "avatars/avatar_21.png",
-      "username": "Sam",
-      "major": "İletişim bölümü",
-      "interest1": "Merhametli",
+      "username": "Anıl",
+      "major": "Kültürel Çalışmalar bölümü",
+      "interest1": "Sevecen",
       "interest2": "Sakin",
       "interest3": "Yürüyüş ve kamp yapmayı severim",
       "interest4": "Sabırlı"
@@ -99,17 +99,17 @@ window.partners = {
 	"partner2": [
     {
       "avatar": "avatars/others/lauren.png",
-      "username": "Pat",
+     "username": "Deniz",
       "major": "Bilgisayar Mühendisliği",
       "interest1": "Mantıkli",
-      "interest2": "Yapboz severim",
+      "interest2": "Sudoku severim",
       "interest3": "Hızlı düşünürüm",
       "interest4": "Enerjik"
     },
     {
       "avatar": "avatars/others/jane.png",
-      "username": "Chris",
-      "major": "Sosyoloji okuyorum",
+    "username": "Ekin",
+      "major": "Siyaset Bilimi okuyorum",
       "interest1": "Yardımsever",
       "interest2": "Kibar",
       "interest3": "Düzenli",
@@ -117,9 +117,9 @@ window.partners = {
     },
     {
       "avatar": "avatars/others/anca.png",
-      "username": "Sam",
-      "major": "İletişim bölümü",
-      "interest1": "Merhametli",
+       "username": "Anıl",
+      "major": "Kültürel Çalışmalar bölümü",
+      "interest1": "Sevecen",
       "interest2": "Sakin",
       "interest3": "Yürüyüş ve kamp yapmayı severim",
       "interest4": "Sabırlı"
