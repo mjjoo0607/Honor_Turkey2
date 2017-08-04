@@ -35,26 +35,26 @@ window.others = {
 	"posts" : [
       {
         "avatar": "avatars/others/pat.png",
-        "username": "Pat",
+        "username": "Deniz",
         "text": "Lisedeyken hep iyi notlar alirdım. Üniversiteye gelince farkettim ki, sadece iyi not almak için değil icerigi gerçekten anlamak için lisede sarfettigim cabanin iki katını sarfetmem gerekiyor. Su ana kadar üniversitedeki derslerden çoğunlukla A aldım. Beni cok ugrastiran ve kendimi zorlamami gerektiren bir kac ders oldu ama basarili oldugum icin gururluyum. Beni öne çıkaran başka bir başarı ise, çok yakın zamanda istatistiki veri analizi yapan bir şirkette bir staj olanağı bulmam. Bu staj cok zamanimi aldi ama cabalarimin somut karsiligini gormek bana cesaret verdi. Umarim bu staj universiteyi bitirip yuksek lisansa basvururken bana yardimci olur. ",
         "likes": [12000, 80000] //3
       },      
       
       {
         "avatar": "avatars/others/anca.png",
-        "username": "KY",
+        "username": "Ümit",
         "text": "Beni arkadaslarim arasinda one çıkaracak şeylerden birisi, hayatimda ilk kez gelecek dönem yurtdışına çıkacak olmam. Bu seyahati planlamak aylarimi aldi ve oldukca stresli bir surecti. Bu benim için çok gurur ve heyecan verici bir an, çünkü hep başka bir ülkede okumayi hayal etmişimdir. Gelecek donem Hollanda'da bir universitede hem derslere girip hem de dil öğreneceğim. Ayrıca hayatımda denge kurmak konusunda arkadaşlarımdan daha iyi olduğum için kendimle gurur duyuyorum. Dengeli olmak ve dengeli bir yaşam surdurmek hayatta basarmasi en zor şeylerden biri. Insanin onune her gun yeni görevler, sorumluluklar ve fırsatlar cikiyor. Öz disiplinim ve zaman yönetme becerim sayesinde dengeli yasam konusunda iyi bir iş çıkardigimi dusunuyorum.",
         "likes": [10000, 80000, 120000] //3
       },
       {
         "avatar": "avatars/avatar_21.png",
-        "username": "Sam",
+        "username": "Ekin",
         "text": "Gecen donem not ortalamam çok yüksekti. Ilk zamanlar universitedeki sorumluluklara adapte olmakta biraz zorluk yaşadım ve bunun notlarıma etkisi oldu. Ama gecen dönem, ilk defa bütün derslerden gerçekten keyif aldım. Bu his, çok çalışmam için beni motive etti ve şimdiye kadarki eğitim hayatim boyunca aldığım en iyi not ortalamasini almami sagladi. Lisedeyken, koroda bayağı aktiftim. Bir arkadaşımla birlikte bir şarkı yarışmasında duet yapmaya karar verdik. Yarisma icin neredeyse her gün prova yaptık. Bir jürinin karşısına çıkıp şarkı söylemek beni bayagi gerdi çünkü bu performans için ne kadar çok çalıştigimizin farkindaydim. Puanlar açıklandığında öğrendik ki, jürinin gün boyunca dinlediği duetlerin en iyisi bizimkiymis. Kendimle ve arkadasimla çok gurur duydum.",
 		"likes": [20000, 21000] //2
       },
       {
         "avatar": "avatars/others/george.png",
-        "username": "Chris",
+        "username": "Anıl",
         "text": "Gurur duyduğum başarılarimdan biri en iyi universitelerden birine girmis olmak. Universite sınavlarina çok sıkı hazirlandim. Elimden gelenin en iyisini yapmaya, profesyonel ve olgun davranmaya calistim. Üniversite hazirlik surecindeki tutumum konusunda kendimle gurur duyuyorum. O zamana geri dönüp bakınca başarıli olma kapasitesine sahip, bir hedef belirleyip ona ulasabilecek bir kişiye nasil donustugumu görüyorum. Ayrıca, üniversitedeyken zamanımı verimli kullandigim icin kendimle gurur duyuyorum. Üniversite hayatı her zaman kolay degildi, ama yine de kampusteki pek cok farklı kulübe ve aktiviteye katilmak icin elimden geleni yaptim. Bu aktiviteler sayesinde yeni insanlarla tanışma ve yeni deneyimler kazanma firsatim oldu. Bu yaz mezun olacağım ve yuksek lisansa başlayacağım için heyecanlıyım.",
         "likes": [45000, 50000, 150000] //4
       },
