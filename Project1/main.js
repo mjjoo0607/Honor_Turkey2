@@ -106,7 +106,7 @@ $(function() {
 
   		if(uname == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Lütfen buraya yazın';
   			uname = "undefined";
   		}
   		if(not_alphanumeric(uname)) {
@@ -114,7 +114,7 @@ $(function() {
             /*Apurva 
   		    errormsg = 'Please only letters (and no spaces)';  //before
   		    Apurva*/
-  		    errormsg = 'Please enter letters or numbers only(with no spaces)';   //Apurva
+  		    errormsg = 'Lütfen sadece harf/rakam girin';   //Apurva
   		}  		
 
   		if(error == 0) {
@@ -154,7 +154,7 @@ $(function() {
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
-    			alertify.log("Please select an avatar","error");
+    			alertify.log("Lütfen avatar seçin","error");
     		}
     	});
 
@@ -182,14 +182,14 @@ $(function() {
   		var error = 0;
   		if($('#description').val() == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Lütfen buraya yazın';
   		}
   	    //if($('#description').val() !== "" && $('#description').val().length < 140) {  //Apurva
   		if ($('#description').val() !== "" && $('#description').val().length < 450) {   //Apurva*/
 //         if ($('#description').val() !== "" && $('#description').val().length < 10) {   //Apurva
 		
   			error = 1;
-  			errormsg = 'Please write a bit more';
+  			errormsg = 'Lütfen biraz daha yazın';
 			}
   	    //if($('#description').val().length > 401) {   //Apurva
   	    //if ($('#description').val().length > 701) {  //Apurva
@@ -220,7 +220,7 @@ $(function() {
 
           if (stmajor == "" || attribute1 == "" || attribute2 == "" || attribute3 == "" || attribute4 == "") {
               error = 1;
-              errormsg = 'Please enter text in all the fields';
+              errormsg = 'Lütfen bütün alanlara yazın';
               stmajor = "undefined";
               attribute1 = "undefined";
               attribute2 = "undefined";
@@ -229,7 +229,7 @@ $(function() {
           }
           if (not_alphanumeric(stmajor) || not_alphanumeric(attribute1) || not_alphanumeric(attribute2) || not_alphanumeric(attribute3) || not_alphanumeric(attribute4)) {
               error = 1;
-              errormsg = 'Please enter letters/numbers/hyphen/under score/space only';   //Apurva
+              errormsg = 'Lütfen sadece harf/rakam/tire/altçizgi/boşluk girin';   //Apurva
           }
 
           if (error == 0) {
