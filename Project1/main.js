@@ -475,7 +475,7 @@ function cont_fb_intro() {
 
       //Apurva
       //When user receives comments
-	    var arr = ["Pat says: I enjoyed reading your description " , "Pat says: I didn’t like what you wrote there, I think you should have put more effort in it", "Pat says: Yeah, right. It looks like you are making this up."],
+	    var arr = ["Deniz: Profilini beğendim." , "Deniz :Gramerin bozuk, ben olsam kesin değiştirirdim", "Deniz: Haa, kesin yaşanmıştır bu. Amma atmışsın…."],
                 rand = Math.floor(Math.random() * arr.length),
 	        func = arr[rand];
 	  	window.func=func;
@@ -486,7 +486,7 @@ function cont_fb_intro() {
 // 	      func = arr[rand]
             
 	    setTimeout(function () {
-              alertify.success('Sam says: Hi! Nice to meet you');
+              alertify.success('Ekin: Selam! Tanıştığımıza memnun oldum.');
 		  //document.getElementById("bottomcomment").style.visibility = "visible";
               // $(".commentby").show('Georgeee commented "Hello! nice to meet you"');
           }, 30000);
