@@ -409,7 +409,7 @@ function cont_fb_intro() {
           { 
               times[i] = +times[i]; 
   			
-              themsg = usernames[i] + "post ettiğiniz yazıyı beğendi";
+              themsg = usernames[i] + " post ettiğiniz yazıyı beğendi";
 
               setTimeout(function(themsg) {
                   that.text(parseInt(that.text()) + 1);
