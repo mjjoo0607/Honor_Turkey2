@@ -66,8 +66,8 @@ $(function() {
 	// If group member names are changed, these should be changed accordingly.
 	//settings.likes_by = ['John', 'AncaD', 'Sarah', 'Arjen', 'Jane', 'George', 'Dan', 'Heather', 'Ky'];
       //Apurva
-	settings.likes_by = ['Chris', 'Pat', 'Sam', 'KY'];
-	settings.comments_by = ['Chris', 'Pat', 'Sam', 'KY'];
+	settings.likes_by = ['Anıl', 'Deniz', 'Ekin', 'Ümit'];
+	settings.comments_by = ['Anıl', 'Deniz', 'Ekin', 'Ümit'];
       //Apurva
   }
   
@@ -409,7 +409,7 @@ function cont_fb_intro() {
           { 
               times[i] = +times[i]; 
   			
-              themsg = usernames[i] + " liked your post";
+              themsg = usernames[i] + "post ettiğiniz yazıyı beğendi";
 
               setTimeout(function(themsg) {
                   that.text(parseInt(that.text()) + 1);
