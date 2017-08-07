@@ -18,16 +18,16 @@ window.others = {
         "likes": [10000, 80000, 120000] //3
       },  
       {
+	"avatar": "avatars/others/jane.png",
+        "username": "Anıl",
+        "text": "Gurur duyduğum başarılarımdan biri hedeflediğim üniversitelerden en iyisine girmiş olmak. Üniversite sınavlarına çok sıkı hazırlandım. Elimden gelenin en iyisini yapmaya, profesyonel ve olgun davranmaya çalıştım. Üniversite hazırlık sürecindeki tutumum konusunda kendimle gurur duyuyorum. O zamana geri dönüp bakınca başarılı, kafasına koyduğunu yapabilen birine nasıl dönüştüğümü görüyorum. Ayrıca, üniversite yıllarımın hakkını verdiğim için kendimle gurur duyuyorum. Üniversite hayatı her zaman kolay değildi, ama yine de kampüsteki pek çok farklı kulübe ve etkinliğe katılmak için elimden geleni yaptım. Bunlar sayesinde yeni insanlarla tanışma ve yeni deneyimler kazanma fırsatım oldu. Bu yaz mezun olacağım ve yüksek lisansa başlayacağım için heyecanlıyım.",
+		"likes": [20000, 21000] //2
+      },
+      {
         "avatar": "avatars/others/pat.png",
         "username": "Ümit",
         "text": "Beni arkadaşlarım arasında öne çıkaracak şeylerden birisi, gelecek dönem hayatımda ilk kez yurtdışına çıkacak olmam. Bu seyahati planlamak aylarımı aldı ve oldukça stresli bir süreçti. Bu benim için çok gurur ve heyecan verici bir an, çünkü başka bir ülkede okumak hep hayalimdi. Gelecek dönem Hollanda'da bir üniversitede hem derslere girip hem de dil öğreneceğim.  Ayrıca hayatımda denge kurmak konusunda arkadaşlarımdan daha iyi olduğum için kendimle gurur duyuyorum. Dengeli olmak ve dengeli bir yaşam sürdürmek hayatta başarması en zor şeylerden biri. İnsanın önüne her gün yeni görevler, sorumluluklar ve fırsatlar çıkıyor. Disiplinli olma ve zaman yönetme becerim sayesinde dengeli yaşam konusunda iyi bir iş çıkardığımı düşünüyorum. ",
         "likes": [12000, 38000] //1
-      },
-      {
-        "avatar": "avatars/others/jane.png",
-        "username": "Anıl",
-        "text": "Gurur duyduğum başarılarımdan biri hedeflediğim üniversitelerden en iyisine girmiş olmak. Üniversite sınavlarına çok sıkı hazırlandım. Elimden gelenin en iyisini yapmaya, profesyonel ve olgun davranmaya çalıştım. Üniversite hazırlık sürecindeki tutumum konusunda kendimle gurur duyuyorum. O zamana geri dönüp bakınca başarılı, kafasına koyduğunu yapabilen birine nasıl dönüştüğümü görüyorum. Ayrıca, üniversite yıllarımın hakkını verdiğim için kendimle gurur duyuyorum. Üniversite hayatı her zaman kolay değildi, ama yine de kampüsteki pek çok farklı kulübe ve etkinliğe katılmak için elimden geleni yaptım. Bunlar sayesinde yeni insanlarla tanışma ve yeni deneyimler kazanma fırsatım oldu. Bu yaz mezun olacağım ve yüksek lisansa başlayacağım için heyecanlıyım.",
-		"likes": [20000, 21000] //2
       },
     
     ],
