@@ -77,7 +77,7 @@ window.partners = {
     },
      {
       "avatar": "avatars/others/george.png",
-      "username": "Ekin",
+      "username": "Anıl",
       "major": "Siyaset Bilimi okuyorum",
       "interest1": "Yardımsever",
       "interest2": "Kibar",
@@ -86,7 +86,7 @@ window.partners = {
     },
     {
       "avatar": "avatars/avatar_21.png",
-      "username": "Anıl",
+      "username": "Ekin",
       "major": "Kültürel Çalışmalar bölümü",
       "interest1": "Sevecen",
       "interest2": "Sakin",
