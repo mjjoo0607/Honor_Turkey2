@@ -315,7 +315,7 @@ function cont_fb_intro() {
           }
       });
 
-   if(window.G == "Male") {
+   if(window.G == "Erkek") {
       users = {
           "posts" : [
 			{
@@ -611,7 +611,7 @@ function cont_fb_intro() {
 	window.onbeforeunload = null; 
         $('#mcat').show();
 //--------- 5/11/2017 -------//
-    	if( window.G == "Male" ) {
+    	if( window.G == "Erkek" ) {
       users = {
 	    "partner1": [
               {
