@@ -475,7 +475,7 @@ function cont_fb_intro() {
 
       //Apurva
       //When user receives comments
-	    var arr = ["Deniz: Profilini beğendim." , "Deniz :Gramerin bozuk, ben olsam kesin değiştirirdim", "Deniz: Haa, kesin yaşanmıştır bu. Amma atmışsın…."],
+	    var arr = ["Deniz: Profilini beğendim." , "Deniz :Gramerin bozuk, kesinlikle düzeltmeyi düşünmelisin.", "Deniz: Haa, kesin yaşanmıştır bu. Amma atmışsın…."],
                 rand = Math.floor(Math.random() * arr.length),
 	        func = arr[rand];
 	  	window.func=func;
