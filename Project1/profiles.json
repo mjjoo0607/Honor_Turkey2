@@ -108,7 +108,7 @@ window.partners = {
     },
     {
       "avatar": "avatars/others/jane.png",
-    "username": "Ekin",
+    "username": "Anıl",
       "major": "Siyaset Bilimi okuyorum",
       "interest1": "Yardımsever",
       "interest2": "Kibar",
@@ -117,7 +117,7 @@ window.partners = {
     },
     {
       "avatar": "avatars/others/anca.png",
-       "username": "Anıl",
+       "username": "Ekin",
       "major": "Kültürel Çalışmalar bölümü",
       "interest1": "Sevecen",
       "interest2": "Sakin",
