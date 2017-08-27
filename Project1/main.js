@@ -794,8 +794,8 @@ function cont_fb_intro() {
   // Function to check letters and numbers
   // via http://www.w3resource.com/javascript/form/letters-numbers-field.php
   function not_alphanumeric(inputtxt) {
-    var letterNumber = /^[0-9a-zA-Z-_ ]+$/; //08/24/2017
-    //var letterNumber = /^[0-9a-zA-ZÇĞİÖŞÜçğıöşü-_ ]+$/;  //08/26/2017
+    //var letterNumber = /^[0-9a-zA-Z-_ ]+$/; //08/24/2017
+    var letterNumber = /^[0-9a-zA-Z-_ÇĞİÖŞÜçğıöşü ]+$/;  //08/26/2017
     if(inputtxt.match(letterNumber)) {
         return false;
       } else { 
