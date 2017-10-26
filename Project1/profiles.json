@@ -79,19 +79,19 @@ window.partners = {
       "avatar": "avatars/others/george.png",
       "username": "Anıl",
       "major": "Siyaset Bilimi okuyorum",
-      "interest1": "Yardımsever",
-      "interest2": "Kibar",
-      "interest3": "Düzenli",
-      "interest4": "Kendine güvenen"
+      "interest1": "Sevecen",
+      "interest2": "Sakin",
+      "interest3": "Yürüyüş ve kamp yapmayı severim",
+      "interest4": "Sabırlı"
     },
     {
       "avatar": "avatars/avatar_21.png",
       "username": "Ekin",
       "major": "Kültürel Çalışmalar bölümü",
-      "interest1": "Sevecen",
-      "interest2": "Sakin",
-      "interest3": "Yürüyüş ve kamp yapmayı severim",
-      "interest4": "Sabırlı"
+      "interest1": "Yardımsever",
+      "interest2": "Kibar",
+      "interest3": "Düzenli",
+      "interest4": "Kendine güvenen"
     },
 
   ],
@@ -110,19 +110,19 @@ window.partners = {
       "avatar": "avatars/others/jane.png",
     "username": "Anıl",
       "major": "Siyaset Bilimi okuyorum",
-      "interest1": "Yardımsever",
-      "interest2": "Kibar",
-      "interest3": "Düzenli",
-      "interest4": "Kendine güvenen"
+      "interest1": "Sevecen",
+      "interest2": "Sakin",
+      "interest3": "Yürüyüş ve kamp yapmayı severim",
+      "interest4": "Sabırlı"
     },
     {
       "avatar": "avatars/others/anca.png",
        "username": "Ekin",
       "major": "Kültürel Çalışmalar bölümü",
-      "interest1": "Sevecen",
-      "interest2": "Sakin",
-      "interest3": "Yürüyüş ve kamp yapmayı severim",
-      "interest4": "Sabırlı"
+      "interest1": "Yardımsever",
+      "interest2": "Kibar",
+      "interest3": "Düzenli",
+      "interest4": "Kendine güvenen"
     },
 
   ]
