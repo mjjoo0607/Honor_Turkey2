@@ -26,7 +26,7 @@ $(function() {
 //     settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_78y5vvwkxJZrLtH';
 	 // settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_0rFAtUZh2zg7oA5';
 	    // settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_eDMbyZaMaeG0ynb';
-	  settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_bl7dbR8Cxra8NU1';
+	  settings.defaultredirect = 'https://iastate.qualtrics.com/SE/?SID=SV_bCr3Kc8eHmyiAmN';
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
